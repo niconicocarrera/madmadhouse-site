@@ -1,0 +1,43 @@
+# MADMADHOUSE, standalone. Mirrors the REMAGEN root rules that apply here, so a
+# clone of this repo on its own keeps the same things out. web/ has its own
+# .gitignore for node_modules and dist.
+
+# Real-name to handle mapping for third parties. Never publish.
+people.private.json
+
+# Harvested media: originals, derivative ladders, reels, placeholders. Heavy and
+# rebuildable from the originals with scripts/build_derivatives.py.
+# manifest.json and derivatives.json stay tracked.
+assets/posters/**/*.jpg
+assets/posters/**/*.jpeg
+assets/posters/**/*.png
+assets/posters/**/*.avif
+assets/posters/**/*.webp
+*.mp4
+*.mov
+*.wav
+
+# Review sheets and test recordings built from harvested imagery.
+assets/process/
+
+# Local build and environment.
+*.tsbuildinfo
+.env
+*.env.local
+.DS_Store
+
+# Private working files. Local only, never published (call notes, third-party handle guesses,
+# withheld event locations, raw extraction data, session log).
+/LOG.md
+/CONTENT.md
+/CALL-SHEET.md
+/IG-HANDLE-AUDIT.md
+/REVIEW.md
+/HANDOFF-PROMPT.md
+/HARVEST-COWORK-PROMPT.md
+/HARVEST-HANDBACK.md
+/MOTION-AND-VERIFY-HANDOFF.md
+/events.draft.json
+/vision-findings.json
+/vision-worksheet.md
+/extraction-review.html

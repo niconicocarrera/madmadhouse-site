@@ -1,0 +1,134 @@
+/* The nav lives at the exact centre of the viewport and content passes behind
+   it. difference blending keeps it legible over a black field and over a
+   full-bleed poster alike, with no JS measuring anything.
+
+   pointer-events must be off on the wrapper, which covers the whole viewport,
+   or it would swallow every click on the page. The dock and the links turn
+   them back on. */
+.chrome {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-chrome);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
+
+/* --dx/--dy are written by the rAF loop. Kept as custom properties rather than
+   a direct style.transform so the resting scale and the drag offset compose
+   here instead of being recombined in JS every frame. */
+.chrome__dock {
+  --dx: 0px;
+  --dy: 0px;
+  /* One emphasis signal, two sources: the wayfinding gesture and the drag.
+     Both are moments where the nav must stop being quiet. */
+  --emph: max(var(--nav-seek, 0), var(--nav-move, 0));
+  position: relative;
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: var(--s-6);
+  padding: var(--mo-grab-pad, 0.55rem) calc(var(--mo-grab-pad, 0.55rem) + 0.15rem);
+  transform: translate3d(var(--dx), var(--dy), 0) scale(1);
+  transition: transform var(--mo-drop, .42s) var(--mo-ease, ease);
+  will-change: transform;
+}
+
+/* Dotted frame. Fully invisible at rest so the nav reads as bare type, and it
+   fades in only on hover or focus to say "this can be moved". */
+.chrome__dock::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px dotted #fff;
+  /* Invisible at rest, rising with emphasis. The frame exists anyway as the
+     drag affordance, so making it the wayfinding signal means the thing you are
+     looking for is the thing that lights, with nothing new added to the page. */
+  opacity: var(--emph, 0);
+  transition: opacity var(--mo-quick, .28s) var(--mo-ease, ease);
+  pointer-events: none;
+}
+/* One statement of the frame's visibility, so the states cannot fight.
+   Everything is a floor under --emph rather than a fixed value: hover and grab
+   each guarantee a minimum, and the wayfinding signal can always raise it
+   above them. Written as max() because .is-grabbed is more specific than the
+   base rule, so a plain value there would have OVERRIDDEN emphasis and made
+   grabbing the nav dim it, which is backwards. */
+.chrome__dock:hover::before,
+.chrome__dock:focus-within::before { opacity: max(0.34, var(--emph)); }
+.chrome__dock.is-grabbed::before { opacity: max(0.55, var(--emph)); }
+
+/* While held: no transition on transform, because the rAF loop owns it and a
+   CSS transition would fight the easing and smear it. */
+.chrome__dock.is-grabbed {
+  transform: translate3d(var(--dx), var(--dy), 0) scale(var(--mo-grab-scale, 1.04));
+  transition: none;
+}
+
+/* Emphasis is carried by the two things already on screen: the type and the
+   dotted frame.
+
+   Two earlier versions were cut. A halo read as a glow laid over the page
+   rather than as the nav becoming legible. A rule drawing in from the centre
+   was better but still introduced a new mark. Both had the same flaw: a quiet
+   interface speaking up should assert the element it already has, not summon
+   another one.
+
+   So the dotted frame, which exists anyway as the drag affordance, is the
+   signal. At rest it is invisible; under emphasis it comes up to full and the
+   type opens with it. The thing you are looking for is the thing that lights. */
+.chrome__dock .chrome__link {
+  opacity: calc(var(--chrome-rest) + var(--emph) * (1 - var(--chrome-rest)));
+  letter-spacing: calc(var(--track-wide) + var(--emph) * 0.08em);
+}
+
+
+/* Grab handle, top-left corner of the frame, revealed on hover or focus. */
+.chrome__grab {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 18px;
+  height: 18px;
+  padding: 2px;
+  display: grid;
+  place-items: center;
+  background: transparent;
+  border: 0;
+  color: #fff;
+  opacity: 0;
+  cursor: grab;
+  touch-action: none; /* let the pointer handlers own the gesture on touch */
+  transition: opacity var(--mo-quick, .28s) var(--mo-ease, ease);
+}
+.chrome__dock:hover .chrome__grab,
+.chrome__dock:focus-within .chrome__grab,
+.chrome__dock.is-grabbed .chrome__grab { opacity: 0.75; }
+.chrome__grab:hover { opacity: 1; }
+.chrome__grab:active,
+.chrome__dock.is-grabbed .chrome__grab { cursor: grabbing; }
+.chrome__grab svg { width: 100%; height: 100%; display: block; }
+
+.chrome__links { display: flex; gap: var(--s-6); }
+
+.chrome__link {
+  font-size: var(--t-xs);
+  letter-spacing: var(--track-wide);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  opacity: var(--chrome-rest);
+  transition: opacity var(--mo-quick, .28s) var(--mo-ease, ease);
+}
+.chrome__link:hover,
+.chrome__link[aria-current="page"] { opacity: 1; }
+
+@media (prefers-reduced-motion: reduce) {
+  .chrome__dock { transition: none; }
+  /* The detector does not run under reduced motion, so --nav-seek stays 0 and
+     the halo never appears. Pinned off explicitly so a stale value cannot
+     leave it stuck on. */
+  }

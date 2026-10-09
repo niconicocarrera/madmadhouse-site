@@ -1,0 +1,114 @@
+@import "./tokens.css";
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  /* Tells the UA to theme form controls, scrollbars and the canvas to match,
+     so native chrome follows the scheme instead of staying dark. */
+  color-scheme: light dark;
+  /* Lenis drives scrolling. Native smooth-scroll fights it. */
+  scroll-behavior: auto;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--c-field);
+  color: var(--c-ink);
+  font-family: var(--font-sans);
+  font-size: var(--t-md);
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  /* The brief's hard requirement: no horizontal scroll at any width. */
+  overflow-x: hidden;
+}
+
+img, video { display: block; max-width: 100%; }
+a { color: inherit; }
+
+/* Lenis needs these to own the scroll. */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+:focus-visible {
+  outline: 2px solid var(--c-ink);
+  outline-offset: 3px;
+}
+
+.u-label {
+  font-size: var(--t-xs);
+  letter-spacing: var(--track-wide);
+  text-transform: uppercase;
+  color: var(--c-ink-dim);
+}
+
+.u-mono { font-family: var(--font-mono); font-size: var(--t-xs); }
+
+/* Present to assistive tech and the document outline, absent visually. */
+.u-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.u-skip {
+  position: absolute; left: -9999px;
+  top: var(--s-2);
+}
+.u-skip:focus {
+  left: var(--s-4); z-index: calc(var(--z-chrome) + 1);
+  background: var(--c-ink); color: var(--c-field);
+  padding: var(--s-2) var(--s-4);
+}
+
+/* ---------- fixed chrome ---------- */
+/* Behavior 1 from MOTION-INVENTORY.md: the nav never moves, content passes
+   behind it. difference blending keeps one nav legible over a dark field and
+   over a full-bleed poster alike, without JS measuring anything. */
+
+
+/* Nothing to clear: the nav floats at the centre of the viewport rather than
+   occupying a band at the top. */
+main { padding-top: var(--s-8); }
+/* The full-bleed event view owns the whole viewport and does not scroll. */
+body:has(.ev) main { padding-top: 0; }
+body:has(.ev) { overflow: hidden; }
+
+/* ---------- nav home ----------
+   The nav's home: its MMH text on the gutter, its top at --nav-home-top. On a
+   phone it STARTS there on every page (Chrome.tsx reads --nav-home-default);
+   on wider screens only a page marked data-nav-home sends it there on Escape.
+   --nav-dock-h is written by Chrome from the measured dock, so --page-top (where
+   content starts under a homed nav) follows the nav if its size ever changes. */
+:root {
+  --nav-home-top: var(--s-8);
+  --nav-home-gap: var(--s-12);
+  --nav-dock-h: 1.75rem;
+  --page-top: calc(var(--nav-home-top) + var(--nav-dock-h) + var(--nav-home-gap));
+  --nav-home-default: 0;
+}
+/* The one phone breakpoint for the nav. Info.css switches columns at the same
+   900px. */
+@media (max-width: 899.98px) {
+  :root { --nav-home-default: 1; }
+  main { padding-top: var(--page-top); }
+}
+
+/* ---------- shared page furniture ---------- */
+.page { padding-inline: var(--gutter); }
+
+.seed-notice {
+  margin: var(--s-4) 0 0;
+  padding: var(--s-3) var(--s-4);
+  border: 1px dashed var(--c-rule);
+  color: var(--c-ink-dim);
+  font-size: var(--t-xs);
+  letter-spacing: 0.04em;
+}

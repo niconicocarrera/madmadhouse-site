@@ -1,0 +1,50 @@
+/* The frames stack and only the active one is opaque.
+
+   A poster cell's box is fixed. A media cell's box takes the ratio of the frame
+   on screen and eases between them, so the column reflows around a landscape
+   photograph instead of cropping it. aspect-ratio is interpolable, so this is a
+   real transition rather than a jump. */
+.archive__frames {
+  position: relative;
+  width: 100%;
+}
+.archive__frames--media {
+  transition: aspect-ratio var(--mo-revolve-fade, 0.9s) var(--mo-ease, ease);
+}
+
+.archive__frame {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity var(--mo-revolve-fade, 0.9s) var(--mo-ease, ease);
+}
+.archive__frame.is-on { opacity: 1; }
+
+/* Only the visible frame takes the pointer. The others are stacked on top at
+   opacity 0, and without this they caught every hover: the invisible frame
+   developed and the one on screen never did. Clicks still land on the link,
+   which wraps every frame. */
+.archive__frame { pointer-events: none; }
+.archive__frame.is-on { pointer-events: auto; }
+
+/* The first frame also holds the box open in normal flow, so the tile has a
+   height before any absolute sibling is mounted. */
+.archive__frame:first-child {
+  position: relative;
+}
+
+/* Media cells are the exception. An in-flow first frame keeps its own stored
+   ratio, so it propped the box open at the first photo's height and the
+   aspect-ratio change never took effect. Here the box's own aspect-ratio is the
+   only source of height, and every frame fills it. The active frame always
+   matches the box; only the outgoing one is cover-fitted during the dissolve. */
+.archive__frames--media { overflow: hidden; }
+.archive__frames--media > .archive__frame:first-child { position: absolute; }
+.archive__frames--media .poster { height: 100%; }
+
+@media (prefers-reduced-motion: reduce) {
+  .archive__frames--media { transition: none; }
+  /* The revolve does not run under reduced motion (the timer never starts), so
+     the poster simply stays. No transition to soften. */
+  .archive__frame { transition: none; }
+}

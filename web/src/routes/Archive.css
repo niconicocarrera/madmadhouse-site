@@ -1,0 +1,103 @@
+/* Explicit columns with items dealt round-robin across them (see Archive.tsx).
+   Keeps the ragged, unbound feel of CSS multi-column while reading left to
+   right then down, which multi-column cannot do.
+
+   --archive-cols is the single source of truth for the column count: CSS owns
+   the breakpoints, the component only reads this value. */
+.archive {
+  /* Three wide from the phone up: the archive is a wall of flyers, and one per
+     row on a phone read as a feed instead. */
+  --archive-cols: 3;
+  display: flex;
+  align-items: flex-start;   /* columns end where they end. The raggedness IS the look. */
+  gap: var(--gutter);
+  padding-block: var(--s-12) var(--s-32);
+}
+
+@media (min-width: 1500px) { .archive { --archive-cols: 4; } }
+/* On a phone main already clears the homed nav (global.css). */
+@media (max-width: 899.98px) { .archive { padding-top: 0; } }
+
+/* margin: 0 because a paragraph's default margin collapses through .page and
+   shifts the whole page when the grid replaces it. */
+.archive__loading { margin: 0; }
+
+.archive__col {
+  flex: 1 1 0;
+  min-width: 0;              /* let columns shrink rather than overflow the row */
+  display: flex;
+  flex-direction: column;
+  gap: var(--gutter);
+}
+
+.archive__tile {
+  display: block;
+  text-decoration: none;
+}
+
+/* Date only. The venue is on the night's own page; in the grid it was noise,
+   and the date alone is what makes the wall read as a chronology. */
+/* The grid's single title line. Fixed bottom centre, the same foot the event
+   view's information sits on, and the nav's own treatment: white under a
+   difference blend at the nav's resting opacity, so it reads over a poster and
+   over the field in either scheme. The z-index makes it its own stacking
+   context, which is fine: a blended element that IS the context still blends
+   with what is behind it. It is an ancestor context that isolates (L026). */
+.archive__title {
+  position: fixed;
+  left: 50%;
+  bottom: calc(25svh / 8);
+  z-index: var(--z-chrome);
+  transform: translateX(-50%);
+  margin: 0;
+  max-width: calc(100% - 2 * var(--gutter));
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #fff;
+  mix-blend-mode: difference;
+  font-size: var(--t-xs);
+  letter-spacing: var(--track-wide);
+  text-transform: uppercase;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--mo-quick, .28s) var(--mo-ease, ease);
+}
+.archive__title.is-on { opacity: var(--chrome-rest); }
+
+/* ---- scroll lift ----
+   Two fixed bands, a third of the screen each, feathered to nothing. The filter
+   is constant; only opacity moves, so a frame costs one compositor value. */
+.archive__lift-band {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: var(--mo-edge-extent, 33vh);
+  z-index: calc(var(--z-chrome) - 1);
+  pointer-events: none;
+  -webkit-backdrop-filter: var(--mo-edge-peak, saturate(2.4));
+  backdrop-filter: var(--mo-edge-peak, saturate(2.4));
+}
+.archive__lift-band--top {
+  top: 0;
+  opacity: var(--lift-top, 0);
+  -webkit-mask-image: linear-gradient(to bottom, #000, transparent);
+  mask-image: linear-gradient(to bottom, #000, transparent);
+}
+.archive__lift-band--bottom {
+  bottom: 0;
+  opacity: var(--lift-bottom, 0);
+  -webkit-mask-image: linear-gradient(to top, #000, transparent);
+  mask-image: linear-gradient(to top, #000, transparent);
+}
+@media (prefers-reduced-motion: reduce) {
+  .archive__lift { display: none; }
+}
+
+/* Three wide on a phone: tiles are about a third of 375px, so the gutters close
+   up so three columns still read as a wall rather than a table. */
+@media (max-width: 599px) {
+  .archive, .archive__col { gap: var(--s-2); }
+  /* No title on a phone: there is no hover to drive it, and the grid is the page. */
+  .archive__title { display: none; }
+}

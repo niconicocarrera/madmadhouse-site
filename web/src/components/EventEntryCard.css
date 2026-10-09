@@ -1,0 +1,100 @@
+.event {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--s-6);
+  padding-block: var(--s-12);
+  border-bottom: 1px solid var(--c-rule);
+}
+
+@media (min-width: 900px) {
+  .event {
+    /* Three columns, and the middle one is empty on purpose: the nav is fixed at
+       the exact centre of the viewport, so the layout leaves it a lane to sit in
+       rather than letting it land on the metadata. Measured: the nav is about
+       177px wide, hence the 12rem floor. Roughly half and half either side, which
+       is the split Nico liked. */
+    grid-template-columns: minmax(0, 1fr) var(--nav-lane) minmax(0, 1fr);
+    gap: 0;
+    align-items: center;
+  }
+  .event__media { grid-column: 1; }
+  .event__body  { grid-column: 3; }
+  /* Upcoming leads with the information, past leads with the artifact. */
+  .event--upcoming .event__media { grid-column: 3; }
+  .event--upcoming .event__body  { grid-column: 1; }
+}
+
+.event__media { min-width: 0; display: flex; justify-content: flex-start; }
+
+/* The whole flyer must be visible the moment it loads, without scrolling.
+   Height is the constraint, not width: these are portrait posters, so sizing by
+   width alone pushes the bottom of the flyer below the fold. aspect-ratio then
+   derives the width, so nothing is cropped at any ratio. */
+.event__media .poster--feature {
+  /* A DEFINITE height is required. With width:auto and only a max-height, the
+     box has no definite size for aspect-ratio to work from and collapses to
+     zero width, which renders nothing at all. Fixing the height and letting
+     aspect-ratio derive the width also gives every entry the same optical
+     rhythm regardless of the flyer's ratio. max-width then clamps anything
+     unusually wide, and aspect-ratio recomputes the height to match. */
+  height: 62vh;
+  width: auto;
+  max-width: 100%;
+}
+@media (max-width: 819px) {
+  .event__media .poster--feature { height: 52vh; }
+}
+
+.event__body { min-width: 0; display: flex; flex-direction: column; gap: var(--s-4); }
+
+/* Plain stacked lines, no label column. Each line is self-evident: a place, a
+   date, a lineup. */
+.event__facts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-3);
+  font-size: var(--t-sm);
+}
+.event__facts p { margin: 0; }
+
+.event__where { display: flex; flex-direction: column; gap: 0.15em; }
+.event__venue { }
+.event__when { font-variant-numeric: tabular-nums; }
+.event__coords {
+  font-family: var(--font-mono);
+  font-size: var(--t-xs);
+  color: var(--c-ink-dim);
+  letter-spacing: 0.02em;
+}
+.event__dim { color: var(--c-ink-dim); }
+
+.event__djs { display: flex; flex-wrap: wrap; gap: var(--s-1) var(--s-3); }
+.event__presented { color: var(--c-ink-dim); }
+/* No underline and no rule. A verified credit is distinguished by being
+   slightly brighter than an unverified one and by lifting on hover, not by
+   decoration. */
+.event__dj a {
+  text-decoration: none;
+  border: 0;
+  color: var(--c-ink);
+  transition: opacity var(--mo-quick, .28s) var(--mo-ease, ease);
+}
+.event__dj a:hover { opacity: 0.6; }
+.event__dj { color: var(--c-ink-dim); }
+
+.event__actions { display: flex; flex-wrap: wrap; gap: var(--s-3); margin-top: var(--s-2); }
+
+.btn {
+  display: inline-block;
+  padding: var(--s-3) var(--s-6);
+  border: 1px solid var(--c-rule);
+  text-decoration: none;
+  font-size: var(--t-xs);
+  letter-spacing: var(--track-wide);
+  text-transform: uppercase;
+  transition: border-color var(--mo-quick, .28s) var(--mo-ease, ease),
+              background-color var(--mo-quick, .28s) var(--mo-ease, ease);
+}
+.btn:hover { border-color: var(--c-ink); }
+.btn--primary { background: var(--c-ink); color: var(--c-field); border-color: var(--c-ink); }
+.btn--primary:hover { background: transparent; color: var(--c-ink); }

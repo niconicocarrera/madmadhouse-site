@@ -1,0 +1,83 @@
+{
+  "1144 Douglas Rd": {
+    "lat": 41.734145,
+    "lon": -88.320083,
+    "matched": "1144, Douglas Road, Aurora, Aurora Township, Kane County, Illinois, 60505, United States"
+  },
+  "14 W Downer Pl": {
+    "lat": 41.757672,
+    "lon": -88.317491,
+    "matched": "14, West Downer Place, Aurora, Aurora Township, Kane County, Illinois, 60506, United States"
+  },
+  "1415 E New York St": {
+    "lat": 41.756378,
+    "lon": -88.280867,
+    "matched": "1415, East New York Street, Aurora, Aurora Township, Kane County, Illinois, 60505, United States"
+  },
+  "1415 E New York Street": {
+    "lat": 41.756378,
+    "lon": -88.280867,
+    "matched": "1415, East New York Street, Aurora, Aurora Township, Kane County, Illinois, 60505, United States"
+  },
+  "2 S Stolp": {
+    "lat": 41.757725,
+    "lon": -88.315676,
+    "matched": "Southth Stolp Avenue, Aurora, Aurora Township, Kane County, Illinois, 60505, United States"
+  },
+  "2 W Downer Pl": {
+    "lat": 41.757656,
+    "lon": -88.317459,
+    "matched": "2, West Downer Place, Aurora, Aurora Township, Kane County, Illinois, 60506, United States"
+  },
+  "31 W New York St": {
+    "lat": 41.759602,
+    "lon": -88.315055,
+    "matched": "31, West New York Street, Aurora, Aurora Township, Kane County, Illinois, 60506, United States"
+  },
+  "3234 W Fullerton Ave": {
+    "lat": 41.924949,
+    "lon": -87.708882,
+    "matched": "3234, West Fullerton Avenue, Chicago, Jefferson Township, Cook County, Illinois, 60647, United States"
+  },
+  "33 W New York St": {
+    "lat": 41.759609,
+    "lon": -88.315071,
+    "matched": "33, West New York Street, Aurora, Aurora Township, Kane County, Illinois, 60506, United States"
+  },
+  "620 Ashland Ave": {
+    "lat": 41.737464,
+    "lon": -88.305317,
+    "matched": "620, Ashland Avenue, Aurora, Aurora Township, Kane County, Illinois, 60505, United States"
+  },
+  "6341 N Broadway": {
+    "lat": 41.997647,
+    "lon": -87.660079,
+    "matched": "6341, North Broadway, Edgewater Glen, Edgewater, Chicago, Lake View Township, Cook County, Illinois, 60660, United States"
+  },
+  "64 S River St": {
+    "lat": 41.757507,
+    "lon": -88.318666,
+    "matched": "64, South River Street, Aurora, Aurora Township, Kane County, Illinois, 60506, United States"
+  },
+  "65 S LaSalle (backdoor under bridge)": {
+    "lat": 41.74988,
+    "lon": -88.318205,
+    "matched": "South LaSalle Street, Aurora, Aurora Township, Kane County, Illinois, 60505, United States"
+  },
+  "65 Water St": {
+    "lat": 41.755792,
+    "lon": -88.315352,
+    "matched": "65, South Water Street, Aurora, Aurora Township, Kane County, Illinois, 60505, United States"
+  },
+  "668 Wood St": {
+    "lat": 41.769948,
+    "lon": -88.295761,
+    "matched": "668, Wood Street, Aurora, Aurora Township, Kane County, Illinois, 60505, United States"
+  },
+  "944 IL Route 59": {
+    "lat": 41.754832,
+    "lon": -88.205733,
+    "matched": "944, Illinois Route 59, Naperville, Naperville Township, DuPage County, Illinois, 60540, United States"
+  },
+  "_doc": "Geocoded via OpenStreetMap Nominatim. Keyed by the street address exactly as it appears in events. null means the address did not resolve; show N/A, never a guess. Data (c) OpenStreetMap contributors, ODbL."
+}

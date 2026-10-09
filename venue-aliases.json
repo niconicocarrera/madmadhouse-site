@@ -1,0 +1,120 @@
+{
+  "_doc": "Canonical venue names. The same place arrives under an Instagram handle (from a caption) and under its printed name (from a flyer), so without this the archive counts East Wind three times. Key is the lowercased alias as extracted, value is the canonical record. Flyer-printed names win over handles, because the flyer is the primary artifact. NOTE 2026-09-22: East Wind Social Club has occupied several addresses over the years and is currently closed, so its alias entries normalize the NAME only and leave the address to whatever that event's flyer printed.",
+  "eastwind.club": {
+    "name": "East Wind Social Club",
+    "city": "Aurora"
+  },
+  "eastwind.il": {
+    "name": "East Wind Social Club",
+    "city": "Aurora"
+  },
+  "east wind social club": {
+    "name": "East Wind Social Club",
+    "city": "Aurora"
+  },
+  "undisputedvintage": {
+    "name": "Undisputed Vintage",
+    "city": "Aurora",
+    "address": "14 W Downer Pl"
+  },
+  "undisputed vintage": {
+    "name": "Undisputed Vintage",
+    "city": "Aurora",
+    "address": "14 W Downer Pl"
+  },
+  "holaamor.naperville": {
+    "name": "Hola Amor",
+    "city": "Naperville",
+    "address": "944 IL Route 59"
+  },
+  "hola amor": {
+    "name": "Hola Amor",
+    "city": "Naperville",
+    "address": "944 IL Route 59"
+  },
+  "redroomonny": {
+    "name": "The Red Room",
+    "city": "Aurora",
+    "address": "31 W New York St"
+  },
+  "the red room": {
+    "name": "The Red Room",
+    "city": "Aurora",
+    "address": "31 W New York St"
+  },
+  "amore mio": {
+    "name": "Amore Mio",
+    "city": "Aurora",
+    "address": "33 W New York St"
+  },
+  "la tuna": {
+    "name": "La Tuna",
+    "city": "Aurora",
+    "address": "620 Ashland Ave"
+  },
+  "market96": {
+    "name": "Market96",
+    "city": "Aurora",
+    "address": "1144 Douglas Rd"
+  },
+  "aidansrags media market": {
+    "name": "Aidansrags Media Market",
+    "city": "",
+    "address": ""
+  },
+  "deepdivemediamarket": {
+    "name": "Deep Dive Media Market",
+    "city": "",
+    "address": ""
+  },
+  "leilaniasianfusion": {
+    "name": "Leilani Asian Fusion",
+    "city": "",
+    "address": ""
+  },
+  "dapper_brews_coffee": {
+    "name": "Dapper Brews Coffee",
+    "city": "",
+    "address": ""
+  },
+  "neverhaveieverbar": {
+    "name": "Never Have I Ever Bar",
+    "city": "",
+    "address": ""
+  },
+  "ssoulless.studios": {
+    "name": "Soulless Studios",
+    "city": "",
+    "address": ""
+  },
+  "belmont harbor": {
+    "name": "Belmont Harbor",
+    "city": "Chicago",
+    "address": ""
+  },
+  "subterranean": {
+    "name": "Subterranean",
+    "city": "Chicago",
+    "address": ""
+  },
+  "65 s lasalle": {
+    "name": "65 S LaSalle",
+    "city": "Aurora",
+    "address": "65 S LaSalle (backdoor under bridge)"
+  },
+  "668 wood st": {
+    "name": "668 Wood St",
+    "city": "Aurora",
+    "address": "668 Wood St"
+  },
+  "6341 n broadway": {
+    "name": "6341 N Broadway",
+    "city": "Chicago",
+    "address": "6341 N Broadway"
+  },
+  "artisan loft gallery": {
+    "name": "Artisan Loft Gallery",
+    "city": "Aurora",
+    "address": "2 S Stolp"
+  }
+}

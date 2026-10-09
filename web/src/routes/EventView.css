@@ -1,0 +1,175 @@
+/* One night per screen: the archive, widened. The media is centred on the
+   screen around the nav, with the same clear space above and below; the
+   information sits in the lower clear space, stacked and centred. */
+
+.ev {
+  /* Clear space above and below the media, equal, so the media centres on the
+     nav. The information sits in the lower one, an eighth of a quarter screen
+     up from the edge. */
+  --inset-y: 25svh;
+  --band-pad: calc(25svh / 8);
+  --inset-x: var(--gutter);
+  /* Wide screens: the open centre between the poster set and the media set. */
+  --centre: clamp(260px, 26vw, 420px);
+  --edge: var(--s-2);
+  position: relative;
+  height: 100svh;          /* svh, not vh: mobile browser chrome must not cause a scroll */
+  width: 100%;
+  overflow: hidden;
+}
+
+.ev__loading { margin: 0; padding: var(--s-24) var(--gutter); }
+
+/* Full bleed means the artifact is not dimmed. The archive mutes tiles to make a
+   field; a single night is the opposite, so everything here rests developed. */
+.ev .poster__img,
+.ev .poster__motion { filter: none; }
+.ev .poster.is-developed .poster__img,
+.ev .poster.is-developed .poster__motion { opacity: 1; }
+
+/* ---- an image, contained at its true ratio ----
+   Each slide is a size container, so the figure takes the largest box of its own
+   ratio that fits, in pure CSS. No frame: the image's own edge is the edge. */
+.ev__fig {
+  width: min(100cqw, 100cqh * var(--ar));
+  aspect-ratio: var(--ar);
+}
+.ev__fig .poster { width: 100%; background: transparent; }
+
+/* Photographer credit: a small camera in the photo's bottom-right corner, low
+   contrast until hovered or focused. It links to the photographer; the handle
+   is in its title and accessible name. Only photos that carry a credit show one. */
+.ev__fig { position: relative; }
+.ev__credit {
+  position: absolute;
+  right: var(--s-2);
+  bottom: var(--s-2);
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  color: #fff;
+  opacity: 0.35;
+  filter: drop-shadow(0 0 3px rgb(0 0 0 / 0.5));
+  transition: opacity 0.2s;
+}
+.ev__credit svg { width: 15px; height: 15px; }
+.ev__credit:hover, .ev__credit:focus-visible { opacity: 0.9; }
+
+/* ---- stages ---- */
+.ev__stage { position: relative; min-width: 0; min-height: 0; }
+.ev__stage.is-cycling { cursor: pointer; }
+
+/* One set, alone: the phone, or a wide screen with nothing but posters. */
+.ev__stage--solo {
+  position: absolute;
+  top: var(--inset-y);
+  bottom: var(--inset-y);
+  left: var(--inset-x);
+  right: var(--inset-x);
+}
+
+/* Wide, posters and media: poster set | open centre | media set, each pushed to
+   its outer edge so the middle opens around the nav. Equal sides keep the
+   centre on the screen centre, where the nav is. */
+.ev__spread {
+  position: absolute;
+  top: var(--inset-y);
+  bottom: var(--inset-y);
+  left: var(--edge);
+  right: var(--edge);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--centre) minmax(0, 1fr);
+  grid-template-rows: 100%;
+}
+.ev__stage--poster { grid-column: 1; }
+.ev__stage--media { grid-column: 3; }
+
+/* The slides stack and dissolve. */
+.ev__slide {
+  position: absolute;
+  inset: 0;
+  container-type: size;
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  transition: opacity var(--mo-revolve-fade, 0.9s) var(--mo-ease, ease);
+}
+.ev__slide.is-on { opacity: 1; }
+.ev__stage--poster .ev__slide { place-items: center start; }
+.ev__stage--media .ev__slide { place-items: center end; }
+
+/* ---- the information: stacked, centred, one register ----
+   Every line the same size, weight and tracking. Case is the one switch:
+   as written by default, all capitals with .ev__meta--caps. */
+.ev__band {
+  position: absolute;
+  left: 50%;
+  bottom: var(--band-pad);
+  width: min(100% - 2 * var(--gutter), 560px);
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+.ev__meta {
+  color: var(--c-ink);
+  /* Fixed, not the fluid --t-xs, so the phone and the desktop read identically. */
+  font-size: 0.74rem;
+  line-height: 1.55;
+  letter-spacing: 0.02em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ev__meta--caps { text-transform: uppercase; letter-spacing: var(--track-wide); }
+.ev__meta p { margin: 0; }
+.ev__date { font-variant-numeric: tabular-nums; }
+.ev__djs { display: flex; flex-wrap: wrap; justify-content: center; gap: 0 0.9em; }
+/* Credits (DJs and presenters) link without an underline at rest, like the
+   rest of the information; the underline only answers hover. */
+.ev__djs a, .ev__presented a { color: inherit; text-decoration: none; }
+.ev__djs a:hover, .ev__presented a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---- previous / next, at the edges, mid height ----
+   They can sit over the media at the edges, so they use the nav's difference
+   blend to stay legible on a poster and on the field alike. */
+.ev__arrow {
+  position: absolute;
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  margin-top: -22px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: #fff;
+  mix-blend-mode: difference;
+  opacity: var(--chrome-rest);
+  cursor: pointer;
+  transition: opacity var(--mo-quick, .28s) var(--mo-ease, ease);
+}
+.ev__arrow--prev { left: var(--s-1); }
+.ev__arrow--next { right: var(--s-1); }
+.ev__arrow svg { width: 15px; height: 13px; display: block; }
+.ev__arrow:hover,
+.ev__arrow:focus-visible { opacity: 1; }
+
+/* Horizontal swipes belong to the page (next / previous night); vertical stays
+   with the browser. */
+.ev { touch-action: pan-y; }
+
+@media (max-width: 780px) {
+  /* Side margins wide enough that the arrows sit clear of the image. */
+  .ev { --inset-x: 48px; --inset-y: 22svh; }
+  /* A thumb-sized target with the same small glyph: the button is a tall strip
+     down each edge, the arrow stays where it was. */
+  .ev__arrow { width: 48px; height: 50svh; margin-top: -25svh; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ev__slide { transition: none; }
+}

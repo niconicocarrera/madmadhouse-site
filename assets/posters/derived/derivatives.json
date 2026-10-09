@@ -1,0 +1,2365 @@
+{
+  "mmh-2022-10-01--65-s-lasalle--01--a1": {
+    "aspectRatio": 0.853081,
+    "assetId": "mmh-2022-10-01--65-s-lasalle--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1688,
+    "thumbHash": "23cGPgYMpyRmWzruh8JUeaenGAGAIQE=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2022-10-01--65-s-lasalle--01--a2": {
+    "aspectRatio": 0.853081,
+    "assetId": "mmh-2022-10-01--65-s-lasalle--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1688,
+    "thumbHash": "LggKBgDJlfloeYaKd2tpR7VXAAAAAAA=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2022-10-01--65-s-lasalle--01--a3": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2022-10-01--65-s-lasalle--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 480,
+    "thumbHash": "zAkDDwR1hnr6h1huiWd5eXh4V7XfdfoO",
+    "width": 480,
+    "widths": [
+      400
+    ]
+  },
+  "mmh-2022-10-01--65-s-lasalle--01--a4": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2022-10-01--65-s-lasalle--01--a4",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "jAkHDwYYSHtyeWZ1iGiFqIpgljBnCHIF",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2022-10-01--65-s-lasalle--01--a5": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2022-10-01--65-s-lasalle--01--a5",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 720,
+    "thumbHash": "DBoDDwSfqqtuV2Z0h6dll5l6+OhXn24E",
+    "width": 720,
+    "widths": [
+      400
+    ]
+  },
+  "mmh-2022-10-01--65-s-lasalle--01--a6": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2022-10-01--65-s-lasalle--01--a6",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "JAgKDwLKqJiKeHeciqqG9mZ0Ow2aoZAD",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2022-10-01--65-s-lasalle--01--a7": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2022-10-01--65-s-lasalle--01--a7",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "JPgJBwKp3Jd/ZYeKa2aGuWh42n74tpoP",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2022-10-01--65-s-lasalle--01--a8": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2022-10-01--65-s-lasalle--01--a8",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "4/cNFwLcmYd/hXeKeFeXl3d4mc+4+YsL",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2023-02-03--undisputed-vintage--01--a1": {
+    "aspectRatio": 0.799644,
+    "assetId": "mmh-2023-02-03--undisputed-vintage--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1687,
+    "thumbHash": "LwgKBgCfwZh0a2h1aoVplKeXiH/t+dY=",
+    "width": 1349,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2023-03-18--artisan-loft-gallery--01--a1": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2023-03-18--artisan-loft-gallery--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "XHcGJwiUmJjgwmgRpIqG9Ud8BwRxiFAJ",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2023-08-06--65-water-st--01--a1": {
+    "aspectRatio": 0.799644,
+    "assetId": "mmh-2023-08-06--65-water-st--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1687,
+    "thumbHash": "KwgODgL51ohniNdXeJd5eZeXKnClADc=",
+    "width": 1349,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2023-10-21--3234-w-fullerton-ave--01--a1": {
+    "aspectRatio": 0.799644,
+    "assetId": "mmh-2023-10-21--3234-w-fullerton-ave--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1687,
+    "thumbHash": "WggODgJmZ/d2mLh3eWeIdFenaHCVBoY=",
+    "width": 1349,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2023-11-03--6341-n-broadway--01--a1": {
+    "aspectRatio": 0.79984,
+    "assetId": "mmh-2023-11-03--6341-n-broadway--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1249,
+    "thumbHash": "2XgKDgSHaLh5d+eWhmeXcEhHPzD3I0M=",
+    "width": 999,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2023-11-25--amore-mio--01--a1": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2023-11-25--amore-mio--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1800,
+    "thumbHash": "omkKJgZIWAd2h3eJmGuMjfe3Z5RwDUg=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2023-11-25--amore-mio--01--a2": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2023-11-25--amore-mio--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1800,
+    "thumbHash": "x4gGFghsd/lseLd4iFaGtXgYXc/M9Ms=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2023-11-25--amore-mio--01--a3": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2023-11-25--amore-mio--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1800,
+    "thumbHash": "CZkGHg4VZvaFiZh3mIxnd5l4Q09K9LU=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2023-12-01--amore-mio--01--a1": {
+    "aspectRatio": 0.804819,
+    "assetId": "mmh-2023-12-01--amore-mio--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1660,
+    "thumbHash": "Y0gODgjXl9h4ePd3aIl3iSeHh4BhBjg=",
+    "width": 1336,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2023-12-08--amore-mio--01--a1": {
+    "aspectRatio": 0.799644,
+    "assetId": "mmh-2023-12-08--amore-mio--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1687,
+    "thumbHash": "askGDgj4mddqhtdnd0+Yi6a2T3LJMFc=",
+    "width": 1349,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2023-12-16--amore-mio--01--a1": {
+    "aspectRatio": 0.799644,
+    "assetId": "mmh-2023-12-16--amore-mio--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1687,
+    "thumbHash": "0vcFFgSPJXWFaCmodjWZfDVZV2BE97k=",
+    "width": 1349,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2023-12-16--amore-mio--01--a2": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2023-12-16--amore-mio--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1800,
+    "thumbHash": "TwgSFgKedQd1end1l5mHiIiImnCnCHg=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2023-12-16--amore-mio--01--a3": {
+    "aspectRatio": 0.802228,
+    "assetId": "mmh-2023-12-16--amore-mio--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1795,
+    "thumbHash": "UxgKDgRbZaeGivhqh3qJW3hnWDBRVgU=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2023-12-16--amore-mio--01--a4": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2023-12-16--amore-mio--01--a4",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1350,
+    "thumbHash": "xicGHgT7nglJZTd1kpvbZzbEj1r5TIk=",
+    "width": 1080,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2023-12-16--amore-mio--01--a5": {
+    "aspectRatio": 0.801782,
+    "assetId": "mmh-2023-12-16--amore-mio--01--a5",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1796,
+    "thumbHash": "zgcOBgJ/d5mJiBiGh3d3iJdZBKht4Gk=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-03-29--la-tuna--01--a1": {
+    "aspectRatio": 0.800237,
+    "assetId": "mmh-2024-03-29--la-tuna--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1687,
+    "thumbHash": "lpgGDgSSO/AFmjdKmIXEO0ma1k9Q/AQ=",
+    "width": 1350,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-03-29--la-tuna--01--a2": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2024-03-29--la-tuna--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1800,
+    "thumbHash": "WggKBgL6VOhXh4lXmHiHaneHQa8LYqc=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-03-29--la-tuna--01--a3": {
+    "aspectRatio": 0.801782,
+    "assetId": "mmh-2024-03-29--la-tuna--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1796,
+    "thumbHash": "DhgGDgJ2WfR2aHZ6h7p3asfllpZfivg=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-03-29--la-tuna--01--a4": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2024-03-29--la-tuna--01--a4",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1800,
+    "thumbHash": "3+cJDgDqV/hmZ1lIuHWYa1d4iICWA6o=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-03-29--la-tuna--01--a5": {
+    "aspectRatio": 0.801782,
+    "assetId": "mmh-2024-03-29--la-tuna--01--a5",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1796,
+    "thumbHash": "sMcFDgJ8lHmYhll2eG+kd3Y4KYewpQY=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-03-29--la-tuna--01--a6": {
+    "aspectRatio": 0.801782,
+    "assetId": "mmh-2024-03-29--la-tuna--01--a6",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1796,
+    "thumbHash": "4ecRFgKqhfdmd1h3iYeIeId3h4CYBak=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-03-29--la-tuna--01--a7": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2024-03-29--la-tuna--01--a7",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1800,
+    "thumbHash": "lpgGDgSSO/AFmjdKmIXEO0ma1k9Q/AQ=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-04-05--hola-amor--01--a1": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-04-05--hola-amor--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1178,
+    "thumbHash": "lAcKJwx6d3acdnaUeId3N3ZglZCJCYcE",
+    "width": 1178,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2024-05-03--la-tuna--01--a1": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2024-05-03--la-tuna--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1800,
+    "thumbHash": "0xcKFgQHl3eHd1e4d3aIeWeH+HR/CMg=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-03--la-tuna--01--a2": {
+    "aspectRatio": 0.801782,
+    "assetId": "mmh-2024-05-03--la-tuna--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1796,
+    "thumbHash": "zUcKFgh/hSlzeFeoeaxVVmd3UM/mCYI=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-03--la-tuna--01--a3": {
+    "aspectRatio": 0.801782,
+    "assetId": "mmh-2024-05-03--la-tuna--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1796,
+    "thumbHash": "CSgGBgKLUWeFiQeGmqd2mYdYL8e9UQY=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-03--la-tuna--01--a4": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2024-05-03--la-tuna--01--a4",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1800,
+    "thumbHash": "FjgSDgR0dxeIiPd2d2aIeah2maBdCCc=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-03--la-tuna--01--a5": {
+    "aspectRatio": 0.802228,
+    "assetId": "mmh-2024-05-03--la-tuna--01--a5",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1795,
+    "thumbHash": "mpgSFgSHeQd3dxiIh36Ih1d3do+GBdE=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a1": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2024-05-10--subterranean--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1800,
+    "thumbHash": "8rcFDgSH+Hd2mNd5dshXapd0iFePePU=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a10": {
+    "aspectRatio": 0.928433,
+    "assetId": "mmh-2024-05-10--subterranean--01--a10",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1551,
+    "thumbHash": "CQgGDwIRCmjAK6aRlYx0Sph6dgI+ItIA",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a11": {
+    "aspectRatio": 0.926045,
+    "assetId": "mmh-2024-05-10--subterranean--01--a11",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1555,
+    "thumbHash": "yPcJDwIIdod1eHl0iYmWWbl5t1BZC4cG",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a12": {
+    "aspectRatio": 0.926045,
+    "assetId": "mmh-2024-05-10--subterranean--01--a12",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1555,
+    "thumbHash": "ywcODwB1eIdflndqh4h4eHiHZxYEBk8A",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a13": {
+    "aspectRatio": 0.926045,
+    "assetId": "mmh-2024-05-10--subterranean--01--a13",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1555,
+    "thumbHash": "BQgGDwIItldkmniHeGeoaHeLiFBnB3YH",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a14": {
+    "aspectRatio": 0.926045,
+    "assetId": "mmh-2024-05-10--subterranean--01--a14",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1555,
+    "thumbHash": "BwgKDwQHuXeDaoh2mGeId4h4Z1BoBoUF",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a15": {
+    "aspectRatio": 0.926045,
+    "assetId": "mmh-2024-05-10--subterranean--01--a15",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1555,
+    "thumbHash": "CQgGBwKoaGOVZopimQZVZmx5B2xPsvgD",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a16": {
+    "aspectRatio": 0.926045,
+    "assetId": "mmh-2024-05-10--subterranean--01--a16",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1555,
+    "thumbHash": "CUgKFwgGmHiUeYeDe5d3iIeGqWAHBaQA",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a17": {
+    "aspectRatio": 0.926045,
+    "assetId": "mmh-2024-05-10--subterranean--01--a17",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1555,
+    "thumbHash": "xgcGBwAJa8NG11eFaFapR5iX1QTABlUI",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a18": {
+    "aspectRatio": 0.928433,
+    "assetId": "mmh-2024-05-10--subterranean--01--a18",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1551,
+    "thumbHash": "ERgODwLDeGiQdHiViIeHaHd6py8j/CEG",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a2": {
+    "aspectRatio": 0.800445,
+    "assetId": "mmh-2024-05-10--subterranean--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1799,
+    "thumbHash": "BwgKDgBWiQeYdqeIh3iWhaloloCKCZY=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a3": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2024-05-10--subterranean--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 900,
+    "thumbHash": "VQgKBgBzh/d3aCh4iHl3eGiY4FpBbQU=",
+    "width": 720,
+    "widths": [
+      400
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a4": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2024-05-10--subterranean--01--a4",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1800,
+    "thumbHash": "D/kGFgpdhPhVeWd4eHdqYnZ5XV/o9oQ=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a5": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2024-05-10--subterranean--01--a5",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 675,
+    "thumbHash": "CGgGFgRbVHiIdwemiVaYeJhXuY+lywk=",
+    "width": 540,
+    "widths": [
+      400
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a6": {
+    "aspectRatio": 1.25,
+    "assetId": "mmh-2024-05-10--subterranean--01--a6",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1152,
+    "thumbHash": "BwgGDoIHaqaUWpWEeIp2aph5CbJlUEk=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a7": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2024-05-10--subterranean--01--a7",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1800,
+    "thumbHash": "dUcCDgKYqGRplrdoioaYmXf4vqQfpQU=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a8": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2024-05-10--subterranean--01--a8",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1800,
+    "thumbHash": "dkcCDgRzx3Vrl/dqeHSntImYdqafiAU=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-10--subterranean--01--a9": {
+    "aspectRatio": 0.926045,
+    "assetId": "mmh-2024-05-10--subterranean--01--a9",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1555,
+    "thumbHash": "DQgGDwIGlG1wnGZzdpl5eIdnKTQIQYMA",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-17--hola-amor--01--a1": {
+    "aspectRatio": 1.006879,
+    "assetId": "mmh-2024-05-17--hola-amor--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1163,
+    "thumbHash": "nDYGP4oIh3eHhoiDiWinOJh5d4AoB4gB",
+    "width": 1171,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2024-05-17--hola-amor--01--a2": {
+    "aspectRatio": 1.005587,
+    "assetId": "mmh-2024-05-17--hola-amor--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1432,
+    "thumbHash": "yJgGD4gveVm5Z3enebiq11mN2mYJX7cI",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-05-17--hola-amor--01--a3": {
+    "aspectRatio": 1.006993,
+    "assetId": "mmh-2024-05-17--hola-amor--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 715,
+    "thumbHash": "xWgCD4JrAmn+TWWVisVndpY1ktRfSf0F",
+    "width": 720,
+    "widths": [
+      400
+    ]
+  },
+  "mmh-2024-06-21--la-tuna--01--a1": {
+    "aspectRatio": 0.800237,
+    "assetId": "mmh-2024-06-21--la-tuna--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1687,
+    "thumbHash": "ZaUFHgKIaGi2eAjJh3hyeUJ4GXqQoQc=",
+    "width": 1350,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-06-21--la-tuna--01--a2": {
+    "aspectRatio": 0.800395,
+    "assetId": "mmh-2024-06-21--la-tuna--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1518,
+    "thumbHash": "DykKFgRZmSiFhweqVoiGdWiXfiD1CEE=",
+    "width": 1215,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-06-21--la-tuna--01--a3": {
+    "aspectRatio": 0.801587,
+    "assetId": "mmh-2024-06-21--la-tuna--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1512,
+    "thumbHash": "yhgGFgLFuCcGd4muejR1iop4cLYEaEs=",
+    "width": 1212,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-06-21--la-tuna--01--a4": {
+    "aspectRatio": 0.800395,
+    "assetId": "mmh-2024-06-21--la-tuna--01--a4",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1518,
+    "thumbHash": "CwgGBgDQpSRLeml5aElao1V4AAAAAAA=",
+    "width": 1215,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-06-21--la-tuna--01--a5": {
+    "aspectRatio": 0.801782,
+    "assetId": "mmh-2024-06-21--la-tuna--01--a5",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1796,
+    "thumbHash": "ZaUFHgKIaGi2eAjJh3hyeUJ4GXqQoQc=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-07-04--east-wind-social-club--01--a1": {
+    "aspectRatio": 0.800237,
+    "assetId": "mmh-2024-07-04--east-wind-social-club--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1687,
+    "thumbHash": "TRgKFgIHd5d3iBe3iIeHiGeXN3tw0gc=",
+    "width": 1350,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-07-13--belmont-harbor--01--a1": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2024-07-13--belmont-harbor--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 800,
+    "thumbHash": "6KkGJgT1afZJhnhniJdpeXdo5Z+Ir3o=",
+    "width": 640,
+    "widths": [
+      400
+    ]
+  },
+  "mmh-2024-07-13--belmont-harbor--01--a2": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-07-13--belmont-harbor--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "DAgKDwKwhXnApXZ3eJmGd3h4BhhKkLID",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-07-13--belmont-harbor--01--a3": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-07-13--belmont-harbor--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "DAgKBwJrZmVgmIhkdrmqh2hXx5B0B3IE",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-07-13--belmont-harbor--01--a4": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-07-13--belmont-harbor--01--a4",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "zwcKDwKYWIlwd2l5d1eIp3eH9yr1v0AE",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-07-13--belmont-harbor--01--a5": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-07-13--belmont-harbor--01--a5",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "jwcGDwAZaYZwd3aTaYh3KJV3CEmGHM8H",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-07-13--belmont-harbor--01--a6": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-07-13--belmont-harbor--01--a6",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "jwcKDwKImZmAiHZlZ6eYiHlopvmHlnoA",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-07-13--belmont-harbor--01--a7": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-07-13--belmont-harbor--01--a7",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 720,
+    "thumbHash": "CgcGHwJ3ZoeAh4loiad5Z3eH2fhkmmAK",
+    "width": 720,
+    "widths": [
+      400
+    ]
+  },
+  "mmh-2024-08-23--undisclosed--01--a1": {
+    "aspectRatio": 0.800237,
+    "assetId": "mmh-2024-08-23--undisclosed--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1687,
+    "thumbHash": "EwgODgJXZ2eHiAeYqHiHfGdoeIFvFPc=",
+    "width": 1350,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-09-07--belmont-harbor--01--a1": {
+    "aspectRatio": 0.799763,
+    "assetId": "mmh-2024-09-07--belmont-harbor--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 844,
+    "thumbHash": "MQgOBgJldgaIiCiIh2OIibioi3PwWiQ=",
+    "width": 675,
+    "widths": [
+      400
+    ]
+  },
+  "mmh-2024-09-07--belmont-harbor--01--a2": {
+    "aspectRatio": 1.25048,
+    "assetId": "mmh-2024-09-07--belmont-harbor--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1042,
+    "thumbHash": "CAgGBoBADKeDmnWiVluIVpiHAAAAAAA=",
+    "width": 1303,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-09-07--belmont-harbor--01--a3": {
+    "aspectRatio": 1.247573,
+    "assetId": "mmh-2024-09-07--belmont-harbor--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1030,
+    "thumbHash": "CwgGBoB3a0NgpIhzh8jaRWZqAAAAAAA=",
+    "width": 1285,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-09-07--belmont-harbor--01--a4": {
+    "aspectRatio": 1.247373,
+    "assetId": "mmh-2024-09-07--belmont-harbor--01--a4",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1047,
+    "thumbHash": "BwgGBoB4YZegpodKiXlqZ4Z3AAAAAAA=",
+    "width": 1306,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-10-18--the-red-room--01--a1": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-10-18--the-red-room--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1183,
+    "thumbHash": "SCgKFwQIZoh4l3h3iGeId4d4l3BXCHkF",
+    "width": 1183,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2024-10-18--the-red-room--01--a2": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-10-18--the-red-room--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "xmgGFwR/iIfOZ6iMeZdmtlpotfacbN8J",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-10-18--the-red-room--01--a3": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-10-18--the-red-room--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "CskGJwgfeHpLlHjJeEmoJ3KLZvNqHG8I",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-10-25--668-wood-st--01--a1": {
+    "aspectRatio": 0.800237,
+    "assetId": "mmh-2024-10-25--668-wood-st--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1687,
+    "thumbHash": "jScGDgJKVWmZdbmYdn53UHcm2opfYCg=",
+    "width": 1350,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-11-01--leilani-asian-fusion--01--a1": {
+    "aspectRatio": 0.800237,
+    "assetId": "mmh-2024-11-01--leilani-asian-fusion--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1687,
+    "thumbHash": "FAgKBgCaZxZliAhol66JVZp4jkC7CxQ=",
+    "width": 1350,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-11-01--leilani-asian-fusion--01--a2": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-11-01--leilani-asian-fusion--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "jfcFHwRLhoqNeIhgeUhmOIqUKmz2wmYP",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-11-01--leilani-asian-fusion--01--a3": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-11-01--leilani-asian-fusion--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "ygcGBwAjq4SgeqRoaJlpeIh3FoBHRV8D",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-11-01--leilani-asian-fusion--01--a4": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-11-01--leilani-asian-fusion--01--a4",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "jecJHwRMhoa/hniolmiXZ4Z1NglTkDAG",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-11-01--leilani-asian-fusion--01--a5": {
+    "aspectRatio": 1.000695,
+    "assetId": "mmh-2024-11-01--leilani-asian-fusion--01--a5",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1439,
+    "thumbHash": "jvcJDwJbV3lweHlnd4aIeJaXBoXMkK0N",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-11-01--leilani-asian-fusion--01--a6": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-11-01--leilani-asian-fusion--01--a6",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "h/cFDwJaaGh/h4ZpmYWFmXRYV4710WYP",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-11-01--leilani-asian-fusion--01--a7": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-11-01--leilani-asian-fusion--01--a7",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "AwgGBwC4a3h2d3hwVdmYypZyBwAAAAAA",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-11-08--amore-mio--01--a1": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-11-08--amore-mio--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "SCgKFwQIV3eGeHh2iIh4d4d3lTB2ClEI",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-11-16--amore-mio--01--a1": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-11-16--amore-mio--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1080,
+    "thumbHash": "lTgWDwQIZ4d6hoeHeGeId4h3Z5DYB3wN",
+    "width": 1080,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2024-12-14--the-red-room--01--a1": {
+    "aspectRatio": 0.800237,
+    "assetId": "mmh-2024-12-14--the-red-room--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1687,
+    "thumbHash": "50gKHgjIx2eIePhod4eHjHaXOHCBQwc=",
+    "width": 1350,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2024-12-29--dapper-brews-coffee--01--a1": {
+    "aspectRatio": 1.0,
+    "assetId": "mmh-2024-12-29--dapper-brews-coffee--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 540,
+    "thumbHash": "aEcGBwIKlDmbVImDjFaniYZztrA5xnAL",
+    "width": 540,
+    "widths": [
+      400
+    ]
+  },
+  "mmh-2025-03-29--undisclosed--01--a1": {
+    "aspectRatio": 0.800237,
+    "assetId": "mmh-2025-03-29--undisclosed--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1687,
+    "thumbHash": "IqkOLhaIePiHd+h3d3SIfRdXmHmAmAc=",
+    "width": 1350,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2025-05-24--64-s-river-st--01--a1": {
+    "aspectRatio": 0.800237,
+    "assetId": "mmh-2025-05-24--64-s-river-st--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1687,
+    "thumbHash": "33kFDgT7mEa3qJh3l4l1d3mI9mSb0Fk=",
+    "width": 1350,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2025-05-24--never-have-i-ever-bar--01--a1": {
+    "aspectRatio": 0.800593,
+    "assetId": "mmh-2025-05-24--never-have-i-ever-bar--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1685,
+    "thumbHash": "LggSDgLI12eHiPhnWHmHiIdoR3VwVQc=",
+    "width": 1349,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2025-09-19--east-wind-social-club--01--a1": {
+    "aspectRatio": 0.800237,
+    "assetId": "mmh-2025-09-19--east-wind-social-club--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1687,
+    "thumbHash": "45UJDgQJlomYWKeHeYN3cVdZOmrPmvc=",
+    "width": 1350,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2025-09-26--east-wind-social-club--01--a1": {
+    "aspectRatio": 0.799763,
+    "assetId": "mmh-2025-09-26--east-wind-social-club--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1688,
+    "thumbHash": "mPgJDgIpWZh3eGiHd4t3gEh3Bn1RGwc=",
+    "width": 1350,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2025-10-25--east-wind-social-club--01--a1": {
+    "aspectRatio": 0.799763,
+    "assetId": "mmh-2025-10-25--east-wind-social-club--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1688,
+    "thumbHash": "0/cFBgB3iJh5drg4V2qGY1cG9IRoX+c=",
+    "width": 1350,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2026-01-24--east-wind-social-club--01--a1": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2026-01-24--east-wind-social-club--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1350,
+    "thumbHash": "LQgSBgL2mHeIiIdnd4Z5eGeX961939o=",
+    "width": 1080,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-01-24--east-wind-social-club--01--a2": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2026-01-24--east-wind-social-club--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1350,
+    "thumbHash": "0vcRBgIJZ4h3d3iYiHmGh5hoCFKCICU=",
+    "width": 1080,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-03-21--east-wind-social-club--01--a1": {
+    "aspectRatio": 0.799763,
+    "assetId": "mmh-2026-03-21--east-wind-social-club--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1688,
+    "thumbHash": "2EgKFgQXVqZ4eId6hpZogIl3OYigkAc=",
+    "width": 1350,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2026-04-18--east-wind-social-club--01--a1": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2026-04-18--east-wind-social-club--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1350,
+    "thumbHash": "4rUJFgIka/pniWhpl6N5k0mIYk1PbvQ=",
+    "width": 1080,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-04-18--east-wind-social-club--01--a2": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2026-04-18--east-wind-social-club--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1350,
+    "thumbHash": "kwcKPgwCmiibhgeKdmeJd4h3z2327WY=",
+    "width": 1080,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-04-18--east-wind-social-club--01--a3": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2026-04-18--east-wind-social-club--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1350,
+    "thumbHash": "DjkGFgIBm7pXiSeJhpN5eJhXAG4S8SY=",
+    "width": 1080,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-04-18--east-wind-social-club--01--a4": {
+    "aspectRatio": 0.800157,
+    "assetId": "mmh-2026-04-18--east-wind-social-club--01--a4",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1271,
+    "thumbHash": "j/cJDgJphQh4eXh3loiId3loIMo+5vk=",
+    "width": 1017,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-04-18--east-wind-social-club--01--a5": {
+    "aspectRatio": 0.801504,
+    "assetId": "mmh-2026-04-18--east-wind-social-club--01--a5",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1330,
+    "thumbHash": "BwgGBgBMQQeIeFiEq4pnhmiFe0AMAAA=",
+    "width": 1066,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-05-16--east-wind-social-club--01--a1": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2026-05-16--east-wind-social-club--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1350,
+    "thumbHash": "4ucNDgIJdneHh2ioeHiJh4h4B2G8YMc=",
+    "width": 1080,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-05-16--east-wind-social-club--01--a2": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2026-05-16--east-wind-social-club--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1800,
+    "thumbHash": "h/cFFgQDjDipdgi6hXqGeYdo/HzPv+c=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2026-05-16--east-wind-social-club--01--a3": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2026-05-16--east-wind-social-club--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1800,
+    "thumbHash": "z7YJHgg1WAm5hyZomImGiYp3um+r+7Y=",
+    "width": 1440,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2026-05-16--east-wind-social-club--01--a4": {
+    "aspectRatio": 0.800163,
+    "assetId": "mmh-2026-05-16--east-wind-social-club--01--a4",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1226,
+    "thumbHash": "DfcFFgQEaodYiRZ5l5N5c6qH34/67Xk=",
+    "width": 981,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-06-05--east-wind-social-club--01--a1": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2026-06-05--east-wind-social-club--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1350,
+    "thumbHash": "VkgKDgQGaJd4d0iJhmWJc4lXwYxgQDg=",
+    "width": 1080,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-06-05--east-wind-social-club--01--a2": {
+    "aspectRatio": 0.801047,
+    "assetId": "mmh-2026-06-05--east-wind-social-club--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 4011,
+    "thumbHash": "xggGFggnh/pXh2h3mISIlXhZJ39n81Y=",
+    "width": 3213,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "mmh-2026-06-05--east-wind-social-club--01--a3": {
+    "aspectRatio": 0.800265,
+    "assetId": "mmh-2026-06-05--east-wind-social-club--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1507,
+    "thumbHash": "jfcJHgRahomIhwiGiIaHl6imo3ovq/c=",
+    "width": 1206,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2026-06-20--east-wind-social-club--01--a1": {
+    "aspectRatio": 0.799763,
+    "assetId": "mmh-2026-06-20--east-wind-social-club--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1688,
+    "thumbHash": "JxgKHgR0ZOiGeQd3mXd3hVeGqMlwmi8=",
+    "width": 1350,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2026-07-17--east-wind-social-club--01--a1": {
+    "aspectRatio": 0.799763,
+    "assetId": "mmh-2026-07-17--east-wind-social-club--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1688,
+    "thumbHash": "qTgKDgS3x/VnWdiYeIRne1aXTHCwBAc=",
+    "width": 1350,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a1": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 900,
+    "thumbHash": "F+cJFgI7QGuHiCZXfm9XcisoIIk71Pc=",
+    "width": 720,
+    "widths": [
+      400
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a10": {
+    "aspectRatio": 0.750198,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a10",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 2522,
+    "thumbHash": "mJYNFQjZpJ9mdzdadZiHlxdQuHC4",
+    "width": 1892,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a11": {
+    "aspectRatio": 0.75,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a11",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 4096,
+    "thumbHash": "FMcNJQaHaXtmCUemh3iYeXaPKvPp",
+    "width": 3072,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a12": {
+    "aspectRatio": 0.750094,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a12",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 2673,
+    "thumbHash": "FRgKDQK7eu+Kt4l1RqlkaT6QiEmg",
+    "width": 2005,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a13": {
+    "aspectRatio": 0.75,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a13",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 4096,
+    "thumbHash": "GqYOPRQghUmYR3iZh4WIaJugKPZk",
+    "width": 3072,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a14": {
+    "aspectRatio": 0.750187,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a14",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 2674,
+    "thumbHash": "TxgGDQIiuEukCmfreHxWZsNJUI4E",
+    "width": 2006,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a15": {
+    "aspectRatio": 0.750094,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a15",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 2673,
+    "thumbHash": "pbYNFQLQjZ17Fpm2h5iHh/UoOAai",
+    "width": 2005,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a16": {
+    "aspectRatio": 0.75,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a16",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 3516,
+    "thumbHash": "UxgKDQAIWId5eHd3eIOaZ/lsZ/qX",
+    "width": 2637,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a17": {
+    "aspectRatio": 0.75,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a17",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 2668,
+    "thumbHash": "GRgOFQSgVZx4h2tZmGp3h5mPivmZ",
+    "width": 2001,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a18": {
+    "aspectRatio": 0.800265,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a18",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1507,
+    "thumbHash": "DvgNBgAIR5d3hwinmHWJcpuoVHcgiAc=",
+    "width": 1206,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a19": {
+    "aspectRatio": 0.800138,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a19",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1451,
+    "thumbHash": "EggSDgAXOId3eAe4l4Z4dImIFnhQsgc=",
+    "width": 1161,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a2": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1350,
+    "thumbHash": "1tYJFgIqQVuIiAZnfW9WcxoYQ3pvx/c=",
+    "width": 1080,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a3": {
+    "aspectRatio": 0.801527,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1441,
+    "thumbHash": "0+YJFgIHiVaHaBe4l3eHiIiI6nivv+c=",
+    "width": 1155,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a4": {
+    "aspectRatio": 0.750094,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a4",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 2673,
+    "thumbHash": "FggSDQJmlo9niIiHmHl3d6SAeAU6",
+    "width": 2005,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a5": {
+    "aspectRatio": 0.75,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a5",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1808,
+    "thumbHash": "EPgJDQKhjA+4doNmdqkmmR+s84FM",
+    "width": 1356,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a6": {
+    "aspectRatio": 0.75,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a6",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 2672,
+    "thumbHash": "FOgNDQRZiK94NokFlnSHh2/M9aVb",
+    "width": 2004,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a7": {
+    "aspectRatio": 0.75,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a7",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 2672,
+    "thumbHash": "DQgKDQAAm5F5N7inh5OIZwNoBrFk",
+    "width": 2004,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a8": {
+    "aspectRatio": 0.75,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a8",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 4096,
+    "thumbHash": "UTcOHQZqZleHd4eYWLcIpqefvAQX",
+    "width": 3072,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a9": {
+    "aspectRatio": 0.75026,
+    "assetId": "mmh-2026-08-22--aidansrags-media-market--01--a9",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1922,
+    "thumbHash": "UBgKDQJUVllpB6akeYxWZ5E7EJcD",
+    "width": 1442,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2026-09-06--market96--01--a1": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2026-09-06--market96--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1350,
+    "thumbHash": "YBgGDgJ/WViJWPhpl32UeGh3wHgJjJc=",
+    "width": 1080,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-09-06--market96--01--a3": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2026-09-06--market96--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1350,
+    "thumbHash": "pwgBBgazG+g2tvZrZnuqarg694t5QGc=",
+    "width": 1080,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-09-19--hola-amor--01--a1": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2026-09-19--hola-amor--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1350,
+    "thumbHash": "WQcKHgoGeGeIdzi5h2eHiHlnk29N98c=",
+    "width": 1080,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-09-19--hola-amor--01--a2": {
+    "aspectRatio": 0.8,
+    "assetId": "mmh-2026-09-19--hola-amor--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1350,
+    "thumbHash": "F4gGFgZ9JEd5iPeGmHuFfqhnjHDKCJg=",
+    "width": 1080,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-09-19--hola-amor--01--a3": {
+    "aspectRatio": 0.800265,
+    "assetId": "mmh-2026-09-19--hola-amor--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1507,
+    "thumbHash": "GEgGHgoNWDiJiFaXpmh5dmdo6Y+p/ak=",
+    "width": 1206,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2026-09-19--hola-amor--01--a4": {
+    "aspectRatio": 0.800295,
+    "assetId": "mmh-2026-09-19--hola-amor--01--a4",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1357,
+    "thumbHash": "FkkKPg5/eHdoh6dId4l4iZaYv4r0qUg=",
+    "width": 1086,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-09-19--hola-amor--01--a5": {
+    "aspectRatio": 0.800049,
+    "assetId": "mmh-2026-09-19--hola-amor--01--a5",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 4096,
+    "thumbHash": "iSgKFgSzefiEaXhleIWGtndpsE8n+3U=",
+    "width": 3277,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600,
+      2000
+    ]
+  },
+  "mmh-2026-09-27--carmines--01--a1": {
+    "aspectRatio": 0.800237,
+    "assetId": "mmh-2026-09-27--carmines--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1687,
+    "thumbHash": "0QcKBgAHiOdXiGeIl4R5dYiHaHefd/U=",
+    "width": 1350,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  }
+}

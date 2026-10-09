@@ -1,0 +1,278 @@
+{
+  "_doc": "What each asset IS, read off the image. poster = designed flyer art with printed event details. image = a photograph. video = moving footage. Replaces the old index-based rule (slide 1 is the poster, everything else is not), which was wrong in both directions: a recap post's first slide is a photograph, and a flyer post's later slides are often additional poster designs.",
+  "_kinds": [
+    "poster",
+    "image",
+    "video"
+  ],
+  "mmh-2026-09-19--hola-amor--01--a2": {
+    "kind": "poster",
+    "note": "Second poster design for the same night. Different artwork from slide 1, same lineup and details printed: DJ GUERO, LUISVERCETTI, BLINCO, REROUND, Saturday Sept 19, Hola Amor Naperville, 10PM-2AM."
+  },
+  "mmh-2026-09-19--hola-amor--01--a3": {
+    "kind": "image",
+    "note": "Photograph of blinco at the decks, captioned on the image."
+  },
+  "mmh-2026-09-19--hola-amor--01--a4": {
+    "kind": "image",
+    "note": "Photograph of luisvercetti."
+  },
+  "mmh-2026-09-19--hola-amor--01--a5": {
+    "kind": "image",
+    "note": "Photograph of reround from behind at the decks, crowd and sparkler visible."
+  },
+  "mmh-2026-09-06--market96--01--a3": {
+    "kind": "poster",
+    "note": "Second poster design, the green variant of the Market96 3 Year Anniversary art. Prints luisvercetti and blinco, sunday sept. 6, 1144 douglas rd."
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a2": {
+    "kind": "poster",
+    "note": "Poster. The same DNB n Deep House artwork as slide 1, effectively a duplicate or near-duplicate of the flyer rather than a distinct design. Static twin of the animated a1, so it is suppressed in the grid rather than shown as a second poster of the same design.",
+    "duplicateOf": "mmh-2026-08-22--aidansrags-media-market--01--a1"
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a3": {
+    "kind": "poster",
+    "note": "Poster, but for the HOST event rather than the DJ set: 'aidansrags MEDIA MARKET, a market for creators, collectors and digital minds', August 22nd, 55 Middle Ave Aurora IL, live DJ, 10 vendors. Designed printed matter, so poster.",
+    "hidden": "Not selected for the archive. Nico chose A1, A6, A8, A15 plus the two polaroids, 2026-09-30."
+  },
+  "mmh-2026-06-05--east-wind-social-club--01--a2": {
+    "kind": "image",
+    "note": "Photograph of a dark room under red light, crowd silhouetted."
+  },
+  "mmh-2026-06-05--east-wind-social-club--01--a3": {
+    "kind": "image",
+    "note": "Photograph of a DJ in a denim jacket at the decks."
+  },
+  "mmh-2026-05-16--east-wind-social-club--01--a2": {
+    "kind": "image",
+    "note": "Photograph of a DJ in a blue tee under low light."
+  },
+  "mmh-2026-05-16--east-wind-social-club--01--a3": {
+    "kind": "image",
+    "note": "Photograph, person in a light blue hoodie adjusting a cap."
+  },
+  "mmh-2026-05-16--east-wind-social-club--01--a4": {
+    "kind": "image",
+    "note": "Photograph, DJ at a Pioneer controller under red light."
+  },
+  "mmh-2026-04-18--east-wind-social-club--01--a2": {
+    "kind": "image",
+    "note": "Photograph, DJ in headphones, captioned BLINCO on the image."
+  },
+  "mmh-2026-04-18--east-wind-social-club--01--a3": {
+    "kind": "image",
+    "note": "Photograph, portrait against a warm orange wall."
+  },
+  "mmh-2026-04-18--east-wind-social-club--01--a4": {
+    "kind": "image",
+    "note": "Photograph, DJ in a plaid shirt at the decks."
+  },
+  "mmh-2026-04-18--east-wind-social-club--01--a5": {
+    "kind": "image",
+    "note": "Photograph, black and white, DJ at a Pioneer setup."
+  },
+  "mmh-2026-01-24--east-wind-social-club--01--a2": {
+    "kind": "poster",
+    "note": "Poster. The speaker-stack artwork, same design family as slide 1, printing LUISVERCETTI, BLINCO, 1031MOTIONXO, 1.24.26, 11PM-2AM, 2 W Downer Aurora IL."
+  },
+  "mmh-2024-10-18--the-red-room--01--a2": {
+    "kind": "image",
+    "note": "Photograph, person in a STAFF shirt at the booth."
+  },
+  "mmh-2024-10-18--the-red-room--01--a3": {
+    "kind": "image",
+    "note": "Photograph, red-lit room with a crowd."
+  },
+  "mmh-2024-05-17--hola-amor--01--a2": {
+    "kind": "image",
+    "note": "Photograph, packed red-lit venue."
+  },
+  "mmh-2024-05-17--hola-amor--01--a3": {
+    "kind": "image",
+    "note": "Photograph, blurred red-lit interior."
+  },
+  "mmh-2024-05-10--subterranean--01--a2": {
+    "kind": "image",
+    "note": "Photograph, DJ arms out behind an outdoor setup at night.",
+    "hidden": "Replaced by Le Bump's own posters and recap photos at Nico's call, 2026-10-01."
+  },
+  "mmh-2024-05-10--subterranean--01--a3": {
+    "kind": "image",
+    "note": "Photograph, dancing on an outdoor deck at dusk.",
+    "hidden": "Replaced by Le Bump's own posters and recap photos at Nico's call, 2026-10-01."
+  },
+  "mmh-2024-05-10--subterranean--01--a4": {
+    "kind": "image",
+    "note": "Photograph, two people in a red-lit room with flyers on the wall.",
+    "hidden": "Replaced by Le Bump's own posters and recap photos at Nico's call, 2026-10-01."
+  },
+  "mmh-2024-05-10--subterranean--01--a5": {
+    "kind": "image",
+    "note": "Photograph, crowd around the decks under red light.",
+    "hidden": "Replaced by Le Bump's own posters and recap photos at Nico's call, 2026-10-01."
+  },
+  "mmh-2024-05-03--la-tuna--01--a2": {
+    "kind": "image",
+    "note": "Photograph, DJ from behind at a lit bar counter."
+  },
+  "mmh-2024-05-03--la-tuna--01--a3": {
+    "kind": "image",
+    "note": "Photograph, crowd dancing, drink raised."
+  },
+  "mmh-2024-05-03--la-tuna--01--a4": {
+    "kind": "image",
+    "note": "Photograph, crowd at the bar under a disco ball."
+  },
+  "mmh-2024-05-03--la-tuna--01--a5": {
+    "kind": "image",
+    "note": "Photograph, DJ controller lit pink at the booth."
+  },
+  "mmh-2023-11-25--amore-mio--01--a2": {
+    "kind": "image",
+    "note": "Photograph, the empty red-lit lounge before the night."
+  },
+  "mmh-2023-11-25--amore-mio--01--a3": {
+    "kind": "image",
+    "note": "Photograph, the room filling up, DJ in the foreground."
+  },
+  "mmh-2022-10-01--65-s-lasalle--01--a2": {
+    "kind": "poster",
+    "note": "Poster. A high-contrast black and white variant of the first night's flyer, printing 'madmadhouse presents: OCT 1st 7pm-11PM', feltwell, DJ NESTO. This poster prints '65 N LaSalle St'; Nico confirmed 2026-09-30 that 65 S LaSalle is correct, so the N on this sheet is a misprint. The archive records the correct address and the flyer keeps its own text."
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a1": {
+    "kind": "video",
+    "stillIs": "mmh-2026-08-22--aidansrags-media-market--01--a2",
+    "note": "The flyer for this night is ANIMATED (a GIF on the post). The harvest captured only a still frame, because it pulled the <img> currentSrc. a2 is the static version of the same artwork, which is why the two looked like duplicates. Marked video so the app plays it once a motion file exists; until then it renders its still and is indistinguishable from before. Motion captured 2026-09-30 from the post's own media data (slide 1, media_type 2): 720x900 H.264, 3.1s, no audio. Its first frame matches the harvested still.",
+    "motion": {
+      "src": "/posters/mmh-2026-08-22--aidansrags-media-market--01--a1.mp4",
+      "type": "video/mp4"
+    }
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a4": {
+    "kind": "image",
+    "hidden": "Not selected for the archive. Nico chose A1, A6, A8, A15 plus the two polaroids, 2026-09-30."
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a5": {
+    "kind": "image",
+    "hidden": "Not selected for the archive. Nico chose A1, A6, A8, A15 plus the two polaroids, 2026-09-30."
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a7": {
+    "kind": "image",
+    "hidden": "Not selected for the archive. Nico chose A1, A6, A8, A15 plus the two polaroids, 2026-09-30."
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a9": {
+    "kind": "image",
+    "hidden": "Not selected for the archive. Nico chose A1, A6, A8, A15 plus the two polaroids, 2026-09-30."
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a10": {
+    "kind": "image",
+    "hidden": "Not selected for the archive. Nico chose A1, A6, A8, A15 plus the two polaroids, 2026-09-30."
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a11": {
+    "kind": "image",
+    "hidden": "Not selected for the archive. Nico chose A1, A6, A8, A15 plus the two polaroids, 2026-09-30."
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a12": {
+    "kind": "image",
+    "hidden": "Not selected for the archive. Nico chose A1, A6, A8, A15 plus the two polaroids, 2026-09-30."
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a13": {
+    "kind": "image",
+    "hidden": "Not selected for the archive. Nico chose A1, A6, A8, A15 plus the two polaroids, 2026-09-30."
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a14": {
+    "kind": "image",
+    "hidden": "Not selected for the archive. Nico chose A1, A6, A8, A15 plus the two polaroids, 2026-09-30."
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a16": {
+    "kind": "image",
+    "hidden": "Not selected for the archive. Nico chose A1, A6, A8, A15 plus the two polaroids, 2026-09-30."
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a17": {
+    "kind": "image",
+    "hidden": "Not selected for the archive. Nico chose A1, A6, A8, A15 plus the two polaroids, 2026-09-30."
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a18": {
+    "kind": "image",
+    "note": "Photograph, a polaroid of someone DJing at Undisputed Vintage, shot against a wall. Moved from Market96 to this night, 2026-09-30: shot at the Aidansrags market."
+  },
+  "mmh-2026-08-22--aidansrags-media-market--01--a19": {
+    "kind": "image",
+    "note": "Photograph, a polaroid captioned UNDISPUTED ARCHIVE showing someone DJing against a mesh backdrop. Moved from Market96 to this night, 2026-09-30: shot at the Aidansrags market."
+  },
+  "mmh-2024-03-29--la-tuna--01--a7": {
+    "kind": "poster",
+    "note": "The night's flyer at higher resolution (1440x1800), found inside the photo set. Shown as the poster; the 1350px a1 from the flyer post is its duplicate. Same picture, mean difference 3.2/255. 2026-09-30."
+  },
+  "mmh-2024-06-21--la-tuna--01--a5": {
+    "kind": "image",
+    "duplicateOf": "mmh-2024-06-21--la-tuna--01--a1",
+    "note": " A copy of this night's flyer (a1) inside the photo set, so the poster appeared twice in the archive. Suppressed 2026-09-30 after a perceptual-hash audit of all shown assets.",
+    "keepSmallerBecause": "this copy (1440px) is a visibly brighter blue than the flyer post's own image (1350px, a1). Which colour is the true artwork is Nico's call; until then the post's own image is shown."
+  },
+  "mmh-2024-03-29--la-tuna--01--a1": {
+    "kind": "poster",
+    "duplicateOf": "mmh-2024-03-29--la-tuna--01--a7",
+    "note": " Lower-resolution copy of a7 (1350 vs 1440 wide); a7 is shown instead. 2026-09-30."
+  },
+  "mmh-2026-09-27--carmines--01--a1": {
+    "kind": "poster",
+    "note": "Vadoz's flyer for Rooftop Afters, the afters of the ON Running x Vadoz 5K. Their artwork, posted by @vadozhouse; used as this night's poster at Nico's call (2026-10-01). Read off the image: designed flyer with printed date, time and venue."
+  },
+  "mmh-2024-05-10--subterranean--01--a1": {
+    "kind": "poster",
+    "hidden": "Replaced by Le Bump's own posters and recap photos at Nico's call, 2026-10-01."
+  },
+  "mmh-2024-05-10--subterranean--01--a6": {
+    "kind": "image",
+    "hidden": "Replaced by Le Bump's own posters and recap photos at Nico's call, 2026-10-01."
+  },
+  "mmh-2024-05-10--subterranean--01--a7": {
+    "kind": "poster",
+    "note": "@le__bump's full lineup poster (C6NKXX7rbaP). Main poster for the night."
+  },
+  "mmh-2024-05-10--subterranean--01--a8": {
+    "kind": "poster",
+    "note": "@le__bump's announcement poster, 'featuring SPECIAL GUEST' (C53uPT4rDBE)."
+  },
+  "mmh-2024-05-10--subterranean--01--a9": {
+    "kind": "image",
+    "note": "@le__bump's recap slide 1 (C62OYEZrf1X), photo by @grantjodoin."
+  },
+  "mmh-2024-05-10--subterranean--01--a10": {
+    "kind": "image",
+    "note": "@le__bump's recap slide 2 (C62OYEZrf1X), photo by @grantjodoin."
+  },
+  "mmh-2024-05-10--subterranean--01--a11": {
+    "kind": "image",
+    "note": "@le__bump's recap slide 3 (C62OYEZrf1X), photo by @grantjodoin."
+  },
+  "mmh-2024-05-10--subterranean--01--a12": {
+    "kind": "image",
+    "note": "@le__bump's recap slide 4 (C62OYEZrf1X), photo by @grantjodoin."
+  },
+  "mmh-2024-05-10--subterranean--01--a13": {
+    "kind": "image",
+    "note": "@le__bump's recap slide 5 (C62OYEZrf1X), photo by @grantjodoin."
+  },
+  "mmh-2024-05-10--subterranean--01--a14": {
+    "kind": "image",
+    "note": "@le__bump's recap slide 6 (C62OYEZrf1X), photo by @grantjodoin."
+  },
+  "mmh-2024-05-10--subterranean--01--a15": {
+    "kind": "image",
+    "note": "@le__bump's recap slide 7 (C62OYEZrf1X), photo by @grantjodoin."
+  },
+  "mmh-2024-05-10--subterranean--01--a16": {
+    "kind": "image",
+    "note": "@le__bump's recap slide 8 (C62OYEZrf1X), photo by @grantjodoin."
+  },
+  "mmh-2024-05-10--subterranean--01--a17": {
+    "kind": "image",
+    "note": "@le__bump's recap slide 9 (C62OYEZrf1X), photo by @grantjodoin."
+  },
+  "mmh-2024-05-10--subterranean--01--a18": {
+    "kind": "image",
+    "note": "@le__bump's recap slide 10 (C62OYEZrf1X), photo by @grantjodoin."
+  }
+}

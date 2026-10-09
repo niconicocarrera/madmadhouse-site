@@ -1,0 +1,30 @@
+{
+  "_doc": "Config for the ig-archive skill (.claude/skills/ig-archive). Paths are relative to this folder. The pipeline list is run in order; each step's gate must hold before the next.",
+  "account": "madmaadhouse",
+  "idPrefix": "mmh-",
+  "collectiveHandles": ["madmaadhouse"],
+  "minPosterWidth": 1000,
+  "paths": {
+    "manifest": "assets/posters/manifest.json",
+    "originals": "assets/posters/originals",
+    "kinds": "asset-kinds.json",
+    "findings": "vision-findings.json",
+    "events": "events.draft.json",
+    "log": "LOG.md",
+    "openQuestions": "CALL-SHEET.md",
+    "harvestPrompt": "HARVEST-COWORK-PROMPT.md"
+  },
+  "pipeline": [
+    {"step": "validate harvest", "run": "python3 scripts/validate_manifest.py", "gate": "exit 0"},
+    {"step": "derivatives", "run": "python3 scripts/build_derivatives.py", "gate": "second run writes 0"},
+    {"step": "read flyers", "run": "python3 scripts/vision_sheet.py --batch 6 --out <scratch>/vision.png", "gate": "every new post has a vision-findings entry"},
+    {"step": "extract", "run": "python3 scripts/extract_flyers.py", "gate": "extraction-review.html written, no '!' lines"},
+    {"step": "classify kinds", "run": "python3 scripts/classify_sheet.py --batch 6 --out <scratch>/kind.png", "gate": "every new asset has a kind"},
+    {"step": "mint ids (dry run)", "run": "python3 scripts/mint_assets.py --dry-run", "gate": "resulting key count equals asset count"},
+    {"step": "mint ids", "run": "python3 scripts/mint_assets.py", "gate": "a second run moves 0"},
+    {"step": "write events", "run": "python3 scripts/write_events.py", "gate": "event and asset counts as expected"},
+    {"step": "validate assets", "run": "python3 scripts/validate_assets.py", "gate": "VALIDATION PASSED"},
+    {"step": "audit", "run": "python3 ../../.claude/skills/ig-archive/scripts/audit_archive.py . --sheets <scratch>/sheets", "gate": "exit 0, sheets looked at"},
+    {"step": "build", "run": "cd web && npm run build", "gate": "built, then seen in the browser"}
+  ]
+}

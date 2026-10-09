@@ -1,0 +1,106 @@
+/* CV: the booking one-sheet. Same register as INFO: one ink, small type,
+   uppercase labels, two stacks either side of the nav's lane on wide screens.
+   Prints as two pages: the pitch, then every night. */
+
+.cv {
+  display: grid;
+  gap: var(--s-16);
+  /* As INFO: content starts one --nav-home-gap under the nav's home. */
+  padding-block: calc(var(--page-top) - var(--s-8)) var(--s-32);
+  color: var(--c-ink);
+  font-size: var(--t-sm);
+}
+@media (max-width: 899.98px) { .cv { padding-top: 0; } }
+@media (min-width: 900px) {
+  .cv {
+    grid-template-columns: minmax(0, 1fr) var(--nav-lane) minmax(0, 1fr);
+    gap: var(--s-16) 0;
+    align-items: start;
+  }
+  .cv { row-gap: var(--s-6); }
+  .cv__name { grid-column: 1 / -1; }
+  .cv__col:nth-of-type(1) { grid-column: 1; }
+  .cv__col:nth-of-type(2) { grid-column: 3; }
+  .cv__all { grid-column: 1 / -1; margin-top: var(--s-12); }
+}
+
+.cv__col { display: grid; gap: var(--s-12); align-content: start; }
+.cv__block { display: flex; flex-direction: column; gap: var(--s-3); }
+.cv .u-label { color: var(--c-ink); margin: 0; }
+.cv__sub { margin-top: var(--s-6) !important; }
+
+.cv__name {
+  margin: 0;
+  font-size: var(--t-md);
+  font-weight: 500;
+  letter-spacing: var(--track-wide);
+}
+.cv__identity { margin: 0; text-transform: uppercase; letter-spacing: var(--track-wide); }
+.cv__headline { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.15em; }
+.cv__headline li::before { content: "+ "; }
+.cv__stats { margin: 0; text-transform: uppercase; letter-spacing: var(--track-wide); }
+.cv__text { margin: 0; max-width: var(--measure); }
+
+.cv__list, .cv__plain { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-3); }
+.cv__plain { gap: var(--s-1); }
+.cv__list li { display: grid; gap: 0.15em; }
+.cv__strong { text-transform: uppercase; letter-spacing: var(--track-wide); }
+.cv__meta { opacity: 0.8; }
+
+.cv__dl { display: grid; grid-template-columns: max-content 1fr; gap: var(--s-2) var(--s-6); margin: 0; }
+.cv__dl dd { margin: 0; }
+.cv__row { display: contents; }
+
+/* Links read as text at rest, like the event credits; underline answers hover. */
+.cv a { color: inherit; text-decoration: none; }
+.cv a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.cv__contact a { text-decoration: underline; text-underline-offset: 3px; }
+
+.cv__print { align-self: start; margin-top: var(--s-3); }
+
+.cv__all { display: grid; gap: var(--s-4); }
+.cv__table { width: 100%; border-collapse: collapse; font-size: var(--t-xs); }
+.cv__table th {
+  text-align: left; font-weight: 500; text-transform: uppercase; letter-spacing: var(--track-wide);
+  padding: 0 var(--s-4) var(--s-2) 0; border-bottom: 1px solid var(--c-rule);
+}
+.cv__table td { padding: var(--s-2) var(--s-4) var(--s-2) 0; vertical-align: top; border-bottom: 1px solid var(--c-rule); }
+.cv__table td:first-child { white-space: nowrap; }
+@media (max-width: 599.98px) {
+  /* On a phone the lineup column would crush the rest; it is on each night's page. */
+  .cv__table th:last-child, .cv__table td:last-child { display: none; }
+}
+
+/* ---------- print: the PDF a booker gets ---------- */
+@media print {
+  @page { size: letter; margin: 0.55in 0.6in; }
+  html, body { background: #fff !important; }
+  .chrome, .u-skip, .cv__print { display: none !important; }
+  main { padding-top: 0 !important; }
+  .cv {
+    --c-ink: #000;
+    --c-rule: #bbb;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 0.45in;
+    padding: 0;
+    font-size: 8.4pt;
+    line-height: 1.3;
+    color: #000;
+  }
+  .cv__col { grid-column: auto !important; gap: 11pt; }
+  .cv__block { gap: 4pt; }
+  .cv__list { gap: 5pt; }
+  .cv__sub { margin-top: 7pt !important; }
+  .cv__name { font-size: 15pt; grid-column: 1 / -1; margin-bottom: 9pt; }
+  .cv__print { display: none !important; }
+  .cv__all { grid-column: 1 / -1 !important; break-before: page; gap: 8pt; }
+  .cv__table { font-size: 7.2pt; }
+  .cv__table th:last-child, .cv__table td:last-child { display: table-cell; }
+  .cv__table th { padding: 0 6pt 3pt 0; }
+  .cv__table td { padding: 1.6pt 6pt 1.6pt 0; }
+  /* Date and place on one line, or 44 rows double in height and spill. */
+  .cv__table td:nth-child(1), .cv__table td:nth-child(3) { white-space: nowrap; }
+  .cv__table tr { break-inside: avoid; }
+  .cv a { text-decoration: none !important; }
+}

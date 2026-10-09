@@ -1,0 +1,22 @@
+// Cloudflare Workers static assets (Cloudflare has folded Pages into Workers).
+// Deployed from this machine (`npm run deploy`), not from git: the poster
+// derivatives are gitignored, so a git-triggered build would ship no images.
+{
+  "name": "madmadhouse",
+  "compatibility_date": "2026-09-30",
+  // Bought in Cloudflare Registrar 2026-09-30. Cloudflare creates the DNS
+  // records and the certificate for each custom domain.
+  "routes": [
+    { "pattern": "madmadhouse.com", "custom_domain": true },
+    { "pattern": "www.madmadhouse.com", "custom_domain": true }
+  ],
+  // Kept on as a fallback address while the domain settles.
+  "workers_dev": true,
+  // No extra public URL per deploy.
+  "preview_urls": false,
+  "assets": {
+    "directory": "./dist",
+    // Client routes (/archive, /info, shared ?e= links) fall back to index.html.
+    "not_found_handling": "single-page-application"
+  }
+}

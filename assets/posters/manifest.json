@@ -1,0 +1,1902 @@
+{
+  "schemaVersion": 1,
+  "account": "madmaadhouse",
+  "harvestedAt": "2026-09-22T06:17:25Z",
+  "postCount": 60,
+  "notes": "Harvested via logged-in Chrome reading each post's embedded page JSON (Instagram's /api/v1 was hard rate-limited, so per-post navigation was used instead of the grid API). postCount is the distinct items enumerated: 53 static flyer posts (photo/carousel) plus 7 reels. Instagram's profile header showed 59 posts; the 60-vs-59 difference is an IG count discrepancy, not a dropped post. The 7 reels are recorded as failures because they are videos whose covers are low-res vertical stills, not flyers; their shortcodes are listed so the build session can revisit them. Image w/h are the real decoded dimensions. Each image is the max-resolution image_versions2 candidate served on the post page.",
+  "posts": [
+    {
+      "shortcode": "C-5lk1qO9Ji",
+      "postUrl": "https://www.instagram.com/p/C-5lk1qO9Ji/",
+      "altText": null,
+      "captionText": "We\u2019re back with a special MADMADHOUSE \ud83d\udc40 This friday we\u2019ll be having @vacantsmusic performing to open up the night, then after open tables at 9PM for House Music as Summer almost Comes to an end \ud83e\udea9  All are Invited with a DM for address \ud83e\udef6\ud83c\udfa7 BYOB |FREE ENTRY",
+      "capturedAt": "2026-09-22T06:02:27.948Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C-5lk1qO9Ji-a1",
+          "file": "originals/tmp-C-5lk1qO9Ji-a1.jpg",
+          "w": 1350,
+          "h": 1687,
+          "mintedAs": "mmh-2024-08-23--undisclosed--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "C0FDhi-uvJf",
+      "postUrl": "https://www.instagram.com/p/C0FDhi-uvJf/",
+      "altText": null,
+      "captionText": "WYD TONIGHT? \ud83d\udc40\ud83d\udc40 Join us today SATURDAY NOV 25th, 10PM-1AM at a little new place right here in Downtown Aurora.\ud83d\udcabHope to see you there \ud83e\udd2d\ud83e\udd1d[21+]",
+      "capturedAt": "2026-09-22T06:08:48.955Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C0FDhi-uvJf-a1",
+          "file": "originals/tmp-C0FDhi-uvJf-a1.jpg",
+          "w": 1440,
+          "h": 1800,
+          "mintedAs": "mmh-2023-11-25--amore-mio--01--a1"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-C0FDhi-uvJf-a2",
+          "file": "originals/tmp-C0FDhi-uvJf-a2.jpg",
+          "w": 1440,
+          "h": 1800,
+          "mintedAs": "mmh-2023-11-25--amore-mio--01--a2"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-C0FDhi-uvJf-a3",
+          "file": "originals/tmp-C0FDhi-uvJf-a3.jpg",
+          "w": 1440,
+          "h": 1800,
+          "mintedAs": "mmh-2023-11-25--amore-mio--01--a3"
+        }
+      ]
+    },
+    {
+      "shortcode": "C0LBHVCO1TK",
+      "postUrl": "https://www.instagram.com/p/C0LBHVCO1TK/",
+      "altText": null,
+      "captionText": "We\u2019re back again At Amore Mio for FIRST FRIDAY 10PM-1AM \ud83d\udc40 this is gonna be a good one you wont wanna miss \ud83d\udc8c [21+]",
+      "capturedAt": "2026-09-22T06:07:48.357Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C0LBHVCO1TK-a1",
+          "file": "originals/tmp-C0LBHVCO1TK-a1.jpg",
+          "w": 1336,
+          "h": 1660,
+          "mintedAs": "mmh-2023-12-01--amore-mio--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "C0fhas8urDV",
+      "postUrl": "https://www.instagram.com/p/C0fhas8urDV/",
+      "altText": null,
+      "captionText": null,
+      "capturedAt": "2026-09-22T06:07:44.652Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C0fhas8urDV-a1",
+          "file": "originals/tmp-C0fhas8urDV-a1.jpg",
+          "w": 1349,
+          "h": 1687,
+          "mintedAs": "mmh-2023-12-16--amore-mio--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "C0m-6VGukVo",
+      "postUrl": "https://www.instagram.com/p/C0m-6VGukVo/",
+      "altText": null,
+      "captionText": "WYD This Weekend? \ud83d\udc40 we\u2019re here at Amore Mio FRIDAY & SATURDAY | 10PM-1AM. Will be giving out free MADMADHOUSE Stickers all weekend \ud83d\udcbd\ud83d\udcbd \nSee you there? (21+)\ud83e\udec0",
+      "capturedAt": "2026-09-22T06:07:40.761Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C0m-6VGukVo-a1",
+          "file": "originals/tmp-C0m-6VGukVo-a1.jpg",
+          "w": 1349,
+          "h": 1687,
+          "mintedAs": "mmh-2023-12-08--amore-mio--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "C0ux4MVOwnm",
+      "postUrl": "https://www.instagram.com/p/C0ux4MVOwnm/",
+      "altText": null,
+      "captionText": "Nights at Amore Mio \ud83d\udccc | We will be back this Saturday 10PM-1AM! \ud83d\udcbd Hope We See you there \ud83d\udc97 Check Pinned Post for more details.",
+      "capturedAt": "2026-09-22T06:07:36.929Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C0ux4MVOwnm-a1",
+          "file": "originals/tmp-C0ux4MVOwnm-a1.jpg",
+          "w": 1440,
+          "h": 1800,
+          "mintedAs": "mmh-2023-12-16--amore-mio--01--a2"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-C0ux4MVOwnm-a2",
+          "file": "originals/tmp-C0ux4MVOwnm-a2.jpg",
+          "w": 1440,
+          "h": 1795,
+          "mintedAs": "mmh-2023-12-16--amore-mio--01--a3"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-C0ux4MVOwnm-a3",
+          "file": "originals/tmp-C0ux4MVOwnm-a3.jpg",
+          "w": 1080,
+          "h": 1350,
+          "mintedAs": "mmh-2023-12-16--amore-mio--01--a4"
+        },
+        {
+          "index": 4,
+          "tempAssetId": "tmp-C0ux4MVOwnm-a4",
+          "file": "originals/tmp-C0ux4MVOwnm-a4.jpg",
+          "w": 1440,
+          "h": 1796,
+          "mintedAs": "mmh-2023-12-16--amore-mio--01--a5"
+        }
+      ]
+    },
+    {
+      "shortcode": "C4O96mwOCJf",
+      "postUrl": "https://www.instagram.com/p/C4O96mwOCJf/",
+      "altText": null,
+      "captionText": "\ud83d\udc40 Mark Your calendars cause we\u2019re so back\u2026. \ud83d\udcbf \ud83c\udfa7& Spinning House Music ALL NIGHT from 9PM\u20142AM, MARCH 29th \ud83d\udea8[18+] | 620 ASHLAND AVE \n $5 Entrance Fee! Be there early to catch all 5 DJ\u2019s.",
+      "capturedAt": "2026-09-22T06:07:30.128Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C4O96mwOCJf-a1",
+          "file": "originals/tmp-C4O96mwOCJf-a1.jpg",
+          "w": 1350,
+          "h": 1687,
+          "mintedAs": "mmh-2024-03-29--la-tuna--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "C5BysZtu3bD",
+      "postUrl": "https://www.instagram.com/p/C5BysZtu3bD/",
+      "altText": null,
+      "captionText": "We\u2019re 2 Days Away until the next MADMADHOUSE \ud83d\udc40 \n5 Amazing DJS ALL NIGHT So come dance with us from 9PM-2AM \ud83d\udcbf \ud83c\udfa7",
+      "capturedAt": "2026-09-22T06:06:36.937Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C5BysZtu3bD-a1",
+          "file": "originals/tmp-C5BysZtu3bD-a1.jpg",
+          "w": 1440,
+          "h": 1800,
+          "mintedAs": "mmh-2024-03-29--la-tuna--01--a2"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-C5BysZtu3bD-a2",
+          "file": "originals/tmp-C5BysZtu3bD-a2.jpg",
+          "w": 1440,
+          "h": 1796,
+          "mintedAs": "mmh-2024-03-29--la-tuna--01--a3"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-C5BysZtu3bD-a3",
+          "file": "originals/tmp-C5BysZtu3bD-a3.jpg",
+          "w": 1440,
+          "h": 1800,
+          "mintedAs": "mmh-2024-03-29--la-tuna--01--a4"
+        },
+        {
+          "index": 4,
+          "tempAssetId": "tmp-C5BysZtu3bD-a4",
+          "file": "originals/tmp-C5BysZtu3bD-a4.jpg",
+          "w": 1440,
+          "h": 1796,
+          "mintedAs": "mmh-2024-03-29--la-tuna--01--a5"
+        },
+        {
+          "index": 5,
+          "tempAssetId": "tmp-C5BysZtu3bD-a5",
+          "file": "originals/tmp-C5BysZtu3bD-a5.jpg",
+          "w": 1440,
+          "h": 1796,
+          "mintedAs": "mmh-2024-03-29--la-tuna--01--a6"
+        },
+        {
+          "index": 6,
+          "tempAssetId": "tmp-C5BysZtu3bD-a6",
+          "file": "originals/tmp-C5BysZtu3bD-a6.jpg",
+          "w": 1440,
+          "h": 1800,
+          "mintedAs": "mmh-2024-03-29--la-tuna--01--a7"
+        }
+      ]
+    },
+    {
+      "shortcode": "C5RRdeqOkmS",
+      "postUrl": "https://www.instagram.com/p/C5RRdeqOkmS/",
+      "altText": null,
+      "captionText": "Come out this Friday for Latin house night \ud83c\udfa7 Sounds by @madmaadhouse for the first time with the HA fam \u2764\ufe0f\u200d\ud83d\udd25\ud83d\udcbf 10:30pm-2:00am",
+      "capturedAt": "2026-09-22T06:06:27.908Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C5RRdeqOkmS-a1",
+          "file": "originals/tmp-C5RRdeqOkmS-a1.jpg",
+          "w": 1178,
+          "h": 1178,
+          "mintedAs": "mmh-2024-04-05--hola-amor--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "C5wegKSub9e",
+      "postUrl": "https://www.instagram.com/p/C5wegKSub9e/",
+      "altText": null,
+      "captionText": "FRIDAY | MAY 3RD We\u2019re back again at La Tuna \ud83d\udcbd\ud83c\udfa7\n4 Amazing DJS, House Music From 10-2AM! \ud83d\udc40 see you there?",
+      "capturedAt": "2026-09-22T06:06:23.952Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C5wegKSub9e-a1",
+          "file": "originals/tmp-C5wegKSub9e-a1.jpg",
+          "w": 1440,
+          "h": 1800,
+          "mintedAs": "mmh-2024-05-03--la-tuna--01--a1"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-C5wegKSub9e-a2",
+          "file": "originals/tmp-C5wegKSub9e-a2.jpg",
+          "w": 1440,
+          "h": 1796,
+          "mintedAs": "mmh-2024-05-03--la-tuna--01--a2"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-C5wegKSub9e-a3",
+          "file": "originals/tmp-C5wegKSub9e-a3.jpg",
+          "w": 1440,
+          "h": 1796,
+          "mintedAs": "mmh-2024-05-03--la-tuna--01--a3"
+        },
+        {
+          "index": 4,
+          "tempAssetId": "tmp-C5wegKSub9e-a4",
+          "file": "originals/tmp-C5wegKSub9e-a4.jpg",
+          "w": 1440,
+          "h": 1800,
+          "mintedAs": "mmh-2024-05-03--la-tuna--01--a4"
+        },
+        {
+          "index": 5,
+          "tempAssetId": "tmp-C5wegKSub9e-a5",
+          "file": "originals/tmp-C5wegKSub9e-a5.jpg",
+          "w": 1440,
+          "h": 1795,
+          "mintedAs": "mmh-2024-05-03--la-tuna--01--a5"
+        }
+      ]
+    },
+    {
+      "shortcode": "C64JdsJOpyL",
+      "postUrl": "https://www.instagram.com/p/C64JdsJOpyL/",
+      "altText": null,
+      "captionText": "Live, Laugh, Lebump \u2665\ufe0f \nThanks to da homies for having us on \ud83d\udcbd\ud83d\udcbd\n\ud83d\udcf8: @grantjodoin",
+      "capturedAt": "2026-09-22T06:06:07.943Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C64JdsJOpyL-a1",
+          "file": "originals/tmp-C64JdsJOpyL-a1.jpg",
+          "w": 1440,
+          "h": 1152,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a6"
+        }
+      ]
+    },
+    {
+      "shortcode": "C6cbRiGr-t0",
+      "postUrl": "https://www.instagram.com/p/C6cbRiGr-t0/",
+      "altText": null,
+      "captionText": "We\u2019re so stoked to welcome our old friend @eight___count and new friends @madmaadhouse to the turn the 2 Year Party \ud83c\udd99\ud83c\udd99\ud83c\udd99 \n\nthese youngins are forces to be reckoned with, learn about them below and grab your tickets now!\n\n| EIGHT COUNT | Simply put, I just want people to dance and have fun. That\u2019s why I DJ. I hope that audience members can open themselves up to the idea of taking chances on the dance floor and explore a more personal groove past the generic 2-step. \u201cDon\u2019t care if it\u2019s Jazz, Soul, Tech, Minimal, Funky, Vocal or Hip-house. You name it, I love it.\u00a0It\u2019s all about the House music and it always has been\u201d\n\n| MADMADHOUSE | MADMADHOUSE was created, weaving together elements of dance, music, and immersive experiences to create unforgettable moments of joy, connection, and exploration. Sounds and contagious energy spread out around the Chicago land area. The trio has been building a loyal community by effortlessly blending genres of music and pushing boundaries within their local scene\n\nTickets available now at the link in our bio!",
+      "capturedAt": "2026-09-22T06:06:15.950Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C6cbRiGr-t0-a1",
+          "file": "originals/tmp-C6cbRiGr-t0-a1.jpg",
+          "w": 1440,
+          "h": 1800,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a1"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-C6cbRiGr-t0-a2",
+          "file": "originals/tmp-C6cbRiGr-t0-a2.jpg",
+          "w": 1440,
+          "h": 1799,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a2"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-C6cbRiGr-t0-a3",
+          "file": "originals/tmp-C6cbRiGr-t0-a3.jpg",
+          "w": 720,
+          "h": 900,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a3"
+        },
+        {
+          "index": 4,
+          "tempAssetId": "tmp-C6cbRiGr-t0-a4",
+          "file": "originals/tmp-C6cbRiGr-t0-a4.jpg",
+          "w": 1440,
+          "h": 1800,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a4"
+        },
+        {
+          "index": 5,
+          "tempAssetId": "tmp-C6cbRiGr-t0-a5",
+          "file": "originals/tmp-C6cbRiGr-t0-a5.jpg",
+          "w": 540,
+          "h": 675,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a5"
+        }
+      ]
+    },
+    {
+      "shortcode": "C78EKpouSTK",
+      "postUrl": "https://www.instagram.com/p/C78EKpouSTK/",
+      "altText": null,
+      "captionText": "First Day of Summer and House Music? Sounds like the plan \ud83d\udc40 FRIDAY JUNE 21ST 10PM-2AM | 5 AMAZING DJs \ud83d\udcbd $10 ENTRY. 18+",
+      "capturedAt": "2026-09-22T06:04:51.893Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C78EKpouSTK-a1",
+          "file": "originals/tmp-C78EKpouSTK-a1.jpg",
+          "w": 1350,
+          "h": 1687,
+          "mintedAs": "mmh-2024-06-21--la-tuna--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "C7Afd2rOouP",
+      "postUrl": "https://www.instagram.com/p/C7Afd2rOouP/",
+      "altText": null,
+      "captionText": "HOLA AMOR! We\u2019re Back This Friday May, 17 10:30-2AM \ud83e\udea9\ud83e\udea9 Love this place and can\u2019t wait to put on some House Music For You \ud83d\udc8c\ud83d\udcbd WYD THIS WEEKND?",
+      "capturedAt": "2026-09-22T06:04:57.950Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C7Afd2rOouP-a1",
+          "file": "originals/tmp-C7Afd2rOouP-a1.jpg",
+          "w": 1171,
+          "h": 1163,
+          "mintedAs": "mmh-2024-05-17--hola-amor--01--a1"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-C7Afd2rOouP-a2",
+          "file": "originals/tmp-C7Afd2rOouP-a2.jpg",
+          "w": 1440,
+          "h": 1432,
+          "mintedAs": "mmh-2024-05-17--hola-amor--01--a2"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-C7Afd2rOouP-a3",
+          "file": "originals/tmp-C7Afd2rOouP-a3.jpg",
+          "w": 720,
+          "h": 715,
+          "mintedAs": "mmh-2024-05-17--hola-amor--01--a3"
+        }
+      ]
+    },
+    {
+      "shortcode": "C8a8Ejyu7sB",
+      "postUrl": "https://www.instagram.com/p/C8a8Ejyu7sB/",
+      "altText": null,
+      "captionText": "WYD this weekend? \ud83d\udc40 Ya know where we are Friday June 21st | 5 DJS \ud83c\udfa710PM-2AM \ud83e\udea9 Free MMH Stickers at the door \ud83d\udc8c 18+ $10 Entry",
+      "capturedAt": "2026-09-22T06:04:47.931Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C8a8Ejyu7sB-a1",
+          "file": "originals/tmp-C8a8Ejyu7sB-a1.jpg",
+          "w": 1215,
+          "h": 1518,
+          "mintedAs": "mmh-2024-06-21--la-tuna--01--a2"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-C8a8Ejyu7sB-a2",
+          "file": "originals/tmp-C8a8Ejyu7sB-a2.jpg",
+          "w": 1212,
+          "h": 1512,
+          "mintedAs": "mmh-2024-06-21--la-tuna--01--a3"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-C8a8Ejyu7sB-a3",
+          "file": "originals/tmp-C8a8Ejyu7sB-a3.jpg",
+          "w": 1215,
+          "h": 1518,
+          "mintedAs": "mmh-2024-06-21--la-tuna--01--a4"
+        },
+        {
+          "index": 4,
+          "tempAssetId": "tmp-C8a8Ejyu7sB-a4",
+          "file": "originals/tmp-C8a8Ejyu7sB-a4.jpg",
+          "w": 1440,
+          "h": 1796,
+          "mintedAs": "mmh-2024-06-21--la-tuna--01--a5"
+        }
+      ]
+    },
+    {
+      "shortcode": "C9BGQXkO5I4",
+      "postUrl": "https://www.instagram.com/p/C9BGQXkO5I4/",
+      "altText": null,
+      "captionText": "To all the friends & family & homies with no plans tonight! \ud83d\udc40 | Come kick it with us for some house music and beer for this 4th of July \ud83e\udef6\ud83d\udcbd DM FOR ADRESS - aurora \ud83d\udccd",
+      "capturedAt": "2026-09-22T06:04:40.958Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C9BGQXkO5I4-a1",
+          "file": "originals/tmp-C9BGQXkO5I4-a1.jpg",
+          "w": 1350,
+          "h": 1687,
+          "mintedAs": "mmh-2024-07-04--east-wind-social-club--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "C9K34vOug7M",
+      "postUrl": "https://www.instagram.com/p/C9K34vOug7M/",
+      "altText": null,
+      "captionText": "Wyd this weekend? \ud83d\udc40 This Saturday we\u2019re joining Keep It On Thy Low for some techno & dnb at Belmont Harbor \ud83d\udcbd 9PM- WHENEVER | BYOE & FREE ENTRY | RSVP Link In Bio",
+      "capturedAt": "2026-09-22T06:04:36.969Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C9K34vOug7M-a1",
+          "file": "originals/tmp-C9K34vOug7M-a1.jpg",
+          "w": 640,
+          "h": 800,
+          "mintedAs": "mmh-2024-07-13--belmont-harbor--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "C9bNTZeOoKC",
+      "postUrl": "https://www.instagram.com/p/C9bNTZeOoKC/",
+      "altText": null,
+      "captionText": "@keepitonthylow #1 \ud83d\udc40 if you missed this one keep an eye out for the next onee \ud83e\udee1 \ud83c\udfa7",
+      "capturedAt": "2026-09-22T06:02:35.533Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C9bNTZeOoKC-a1",
+          "file": "originals/tmp-C9bNTZeOoKC-a1.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2024-07-13--belmont-harbor--01--a2"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-C9bNTZeOoKC-a2",
+          "file": "originals/tmp-C9bNTZeOoKC-a2.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2024-07-13--belmont-harbor--01--a3"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-C9bNTZeOoKC-a3",
+          "file": "originals/tmp-C9bNTZeOoKC-a3.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2024-07-13--belmont-harbor--01--a4"
+        },
+        {
+          "index": 4,
+          "tempAssetId": "tmp-C9bNTZeOoKC-a4",
+          "file": "originals/tmp-C9bNTZeOoKC-a4.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2024-07-13--belmont-harbor--01--a5"
+        },
+        {
+          "index": 5,
+          "tempAssetId": "tmp-C9bNTZeOoKC-a5",
+          "file": "originals/tmp-C9bNTZeOoKC-a5.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2024-07-13--belmont-harbor--01--a6"
+        },
+        {
+          "index": 6,
+          "tempAssetId": "tmp-C9bNTZeOoKC-a6",
+          "file": "originals/tmp-C9bNTZeOoKC-a6.jpg",
+          "w": 720,
+          "h": 720,
+          "mintedAs": "mmh-2024-07-13--belmont-harbor--01--a7"
+        }
+      ]
+    },
+    {
+      "shortcode": "C_gPE7LOECt",
+      "postUrl": "https://www.instagram.com/p/C_gPE7LOECt/",
+      "altText": null,
+      "captionText": "Guess whos back at Belmont Harbor, Chicago again Saturday, September 7th | \ud83d\udc40\ud83d\udc40 8PM-12AM | House, Techno, Dnb, Juke all night. 5 DJs Dont miss out.. RSVP LINK IN BIO \ud83c\udfa7",
+      "capturedAt": "2026-09-22T06:02:24.244Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C_gPE7LOECt-a1",
+          "file": "originals/tmp-C_gPE7LOECt-a1.jpg",
+          "w": 675,
+          "h": 844,
+          "mintedAs": "mmh-2024-09-07--belmont-harbor--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "CjJiSJbrhcp",
+      "postUrl": "https://www.instagram.com/p/CjJiSJbrhcp/",
+      "altText": null,
+      "captionText": "October 1st, 65 s LaSalle, Aurora\nCome dance w/ us 7-11PM",
+      "capturedAt": "2026-09-22T06:09:53.809Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-CjJiSJbrhcp-a1",
+          "file": "originals/tmp-CjJiSJbrhcp-a1.jpg",
+          "w": 1440,
+          "h": 1688,
+          "mintedAs": "mmh-2022-10-01--65-s-lasalle--01--a1"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-CjJiSJbrhcp-a2",
+          "file": "originals/tmp-CjJiSJbrhcp-a2.jpg",
+          "w": 1440,
+          "h": 1688,
+          "mintedAs": "mmh-2022-10-01--65-s-lasalle--01--a2"
+        }
+      ]
+    },
+    {
+      "shortcode": "CjOwvAitrNZ",
+      "postUrl": "https://www.instagram.com/p/CjOwvAitrNZ/",
+      "altText": null,
+      "captionText": "An end to our first night, thanks to those who came and keep an eye out for the next one \ud83d\udc40\ud83c\udfa7",
+      "capturedAt": "2026-09-22T06:09:48.950Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-CjOwvAitrNZ-a1",
+          "file": "originals/tmp-CjOwvAitrNZ-a1.jpg",
+          "w": 480,
+          "h": 480,
+          "mintedAs": "mmh-2022-10-01--65-s-lasalle--01--a3"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-CjOwvAitrNZ-a2",
+          "file": "originals/tmp-CjOwvAitrNZ-a2.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2022-10-01--65-s-lasalle--01--a4"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-CjOwvAitrNZ-a3",
+          "file": "originals/tmp-CjOwvAitrNZ-a3.jpg",
+          "w": 720,
+          "h": 720,
+          "mintedAs": "mmh-2022-10-01--65-s-lasalle--01--a5"
+        },
+        {
+          "index": 4,
+          "tempAssetId": "tmp-CjOwvAitrNZ-a4",
+          "file": "originals/tmp-CjOwvAitrNZ-a4.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2022-10-01--65-s-lasalle--01--a6"
+        },
+        {
+          "index": 5,
+          "tempAssetId": "tmp-CjOwvAitrNZ-a5",
+          "file": "originals/tmp-CjOwvAitrNZ-a5.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2022-10-01--65-s-lasalle--01--a7"
+        },
+        {
+          "index": 6,
+          "tempAssetId": "tmp-CjOwvAitrNZ-a6",
+          "file": "originals/tmp-CjOwvAitrNZ-a6.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2022-10-01--65-s-lasalle--01--a8"
+        }
+      ]
+    },
+    {
+      "shortcode": "Cn-cUDauu7M",
+      "postUrl": "https://www.instagram.com/p/Cn-cUDauu7M/",
+      "altText": null,
+      "captionText": "Back like we never left! Playing a set for First Friday 2/3, in Aurora\u2019s Very own UNDISPUTED VINTAGE. 5PM-9PM Come Dance To some Tunes and Shop around!",
+      "capturedAt": "2026-09-22T06:09:39.942Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-Cn-cUDauu7M-a1",
+          "file": "originals/tmp-Cn-cUDauu7M-a1.jpg",
+          "w": 1349,
+          "h": 1687,
+          "mintedAs": "mmh-2023-02-03--undisputed-vintage--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "CptMnQMuZHJ",
+      "postUrl": "https://www.instagram.com/p/CptMnQMuZHJ/",
+      "altText": null,
+      "captionText": "MADMADHOUSE, at Artisan Loft Gallery - March 18th 6-9PM \ud83c\udfa7 come vibe with us & look at some art \ud83e\udef6\ud83c\udffd\ud83c\udf20",
+      "capturedAt": "2026-09-22T06:09:04.511Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-CptMnQMuZHJ-a1",
+          "file": "originals/tmp-CptMnQMuZHJ-a1.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2023-03-18--artisan-loft-gallery--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "CuaV5TzOPsX",
+      "postUrl": "https://www.instagram.com/p/CuaV5TzOPsX/",
+      "altText": null,
+      "captionText": "We will be providing sounds for the Vintage Market Brought by @undisputedvintage ! Catch us from 11-3PM come get groovy to some house music and look for some vintage \ud83c\udfa7",
+      "capturedAt": "2026-09-22T06:09:00.499Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-CuaV5TzOPsX-a1",
+          "file": "originals/tmp-CuaV5TzOPsX-a1.jpg",
+          "w": 1349,
+          "h": 1687,
+          "mintedAs": "mmh-2023-08-06--65-water-st--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "Cx8buE3OsVt",
+      "postUrl": "https://www.instagram.com/p/Cx8buE3OsVt/",
+      "altText": null,
+      "captionText": "Making our Chicago Debut with @undisputedvintage for their pop-up event !\ud83e\udd85 \ud83c\udfa7Gonna be spinnin tunes all afternoon 12-6PM , @the_niconico @luisvercetti @slaterswrld \ud83d\udea6",
+      "capturedAt": "2026-09-22T06:08:56.445Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-Cx8buE3OsVt-a1",
+          "file": "originals/tmp-Cx8buE3OsVt-a1.jpg",
+          "w": 1349,
+          "h": 1687,
+          "mintedAs": "mmh-2023-10-21--3234-w-fullerton-ave--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "Cy1FMd8ukqZ",
+      "postUrl": "https://www.instagram.com/p/Cy1FMd8ukqZ/",
+      "altText": null,
+      "captionText": "We\u2019re BACK again, November 3rd next FRIDAY \ud83d\udcf2 5 DJs | 8PM-12AM | $10 entry, with all proceeds going to a Palestine relief fund! \u2665\ufe0f",
+      "capturedAt": "2026-09-22T06:08:52.824Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-Cy1FMd8ukqZ-a1",
+          "file": "originals/tmp-Cy1FMd8ukqZ-a1.jpg",
+          "w": 999,
+          "h": 1249,
+          "mintedAs": "mmh-2023-11-03--6341-n-broadway--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "DA1ow8ISKo7",
+      "postUrl": "https://www.instagram.com/p/DA1ow8ISKo7/",
+      "altText": null,
+      "captionText": "Friday October 18, We make our return to the RedRoom !A @vadoz Halloween Party, with @reroundd! \ud83c\udfa7\ud83d\udcbf We\u2019ll be closing out the night but great music all night \ud83d\udc40 10PM-1AM 21+ See ya there.",
+      "capturedAt": "2026-09-22T06:02:14.925Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DA1ow8ISKo7-a1",
+          "file": "originals/tmp-DA1ow8ISKo7-a1.jpg",
+          "w": 1183,
+          "h": 1183,
+          "mintedAs": "mmh-2024-10-18--the-red-room--01--a1"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-DA1ow8ISKo7-a2",
+          "file": "originals/tmp-DA1ow8ISKo7-a2.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2024-10-18--the-red-room--01--a2"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-DA1ow8ISKo7-a3",
+          "file": "originals/tmp-DA1ow8ISKo7-a3.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2024-10-18--the-red-room--01--a3"
+        }
+      ]
+    },
+    {
+      "shortcode": "DAMsRUtOaLO",
+      "postUrl": "https://www.instagram.com/p/DAMsRUtOaLO/",
+      "altText": null,
+      "captionText": "KIOTL 002 \ud83e\ude96 @keepitonthylow 9/7",
+      "capturedAt": "2026-09-22T06:02:20.926Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DAMsRUtOaLO-a1",
+          "file": "originals/tmp-DAMsRUtOaLO-a1.jpg",
+          "w": 1303,
+          "h": 1042,
+          "mintedAs": "mmh-2024-09-07--belmont-harbor--01--a2"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-DAMsRUtOaLO-a2",
+          "file": "originals/tmp-DAMsRUtOaLO-a2.jpg",
+          "w": 1285,
+          "h": 1030,
+          "mintedAs": "mmh-2024-09-07--belmont-harbor--01--a3"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-DAMsRUtOaLO-a3",
+          "file": "originals/tmp-DAMsRUtOaLO-a3.jpg",
+          "w": 1306,
+          "h": 1047,
+          "mintedAs": "mmh-2024-09-07--belmont-harbor--01--a4"
+        }
+      ]
+    },
+    {
+      "shortcode": "DB5CO-aumTe",
+      "postUrl": "https://www.instagram.com/p/DB5CO-aumTe/",
+      "altText": null,
+      "captionText": "Leilani 11.1 w/ @vadozevents \ud83c\udff4\u200d\u2620\ufe0f",
+      "capturedAt": "2026-09-22T06:01:07.972Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DB5CO-aumTe-a1",
+          "file": "originals/tmp-DB5CO-aumTe-a1.jpg",
+          "w": 1440,
+          "h": 1440,
+          "lost": "Destroyed 2026-09-22 during minting. A single-phase rename in mint_assets.py landed two different assets on one filename, and the surviving file was then deleted as a presumed duplicate. Derivatives had already been regenerated from the overwritten original, so no copy remains. Recoverable only by re-harvesting this slide from Instagram."
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-DB5CO-aumTe-a2",
+          "file": "originals/tmp-DB5CO-aumTe-a2.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2024-11-01--leilani-asian-fusion--01--a2"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-DB5CO-aumTe-a3",
+          "file": "originals/tmp-DB5CO-aumTe-a3.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2024-11-01--leilani-asian-fusion--01--a3"
+        },
+        {
+          "index": 4,
+          "tempAssetId": "tmp-DB5CO-aumTe-a4",
+          "file": "originals/tmp-DB5CO-aumTe-a4.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2024-11-01--leilani-asian-fusion--01--a4"
+        },
+        {
+          "index": 5,
+          "tempAssetId": "tmp-DB5CO-aumTe-a5",
+          "file": "originals/tmp-DB5CO-aumTe-a5.jpg",
+          "w": 1440,
+          "h": 1439,
+          "mintedAs": "mmh-2024-11-01--leilani-asian-fusion--01--a5"
+        },
+        {
+          "index": 6,
+          "tempAssetId": "tmp-DB5CO-aumTe-a6",
+          "file": "originals/tmp-DB5CO-aumTe-a6.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2024-11-01--leilani-asian-fusion--01--a6"
+        },
+        {
+          "index": 7,
+          "tempAssetId": "tmp-DB5CO-aumTe-a7",
+          "file": "originals/tmp-DB5CO-aumTe-a7.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2024-11-01--leilani-asian-fusion--01--a7"
+        }
+      ]
+    },
+    {
+      "shortcode": "DBKVe8wSmoY",
+      "postUrl": "https://www.instagram.com/p/DBKVe8wSmoY/",
+      "altText": null,
+      "captionText": "We know you got Halloween Parties Saturday.. So come FRIDAY OCT 25 | 8PM-2AM | kicking off the night is @tiwableu, then @daskinnypimp with a performance, & to get the party started at 10PM with a handful of homies DJ\u2019ing \ud83d\udcbf\ud83d\udcbf 18+ BYOE",
+      "capturedAt": "2026-09-22T06:01:15.655Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DBKVe8wSmoY-a1",
+          "file": "originals/tmp-DBKVe8wSmoY-a1.jpg",
+          "w": 1350,
+          "h": 1687,
+          "mintedAs": "mmh-2024-10-25--668-wood-st--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "DBtwKDnORPg",
+      "postUrl": "https://www.instagram.com/p/DBtwKDnORPg/",
+      "altText": null,
+      "captionText": "This FRIDAY, we will be joining @vadozevents to open out the night at @leilaniasianfusion | 10PM-2AM \ud83d\udcbd\ud83d\udcbd Come out and Vibe to some House Music to start your night.",
+      "capturedAt": "2026-09-22T06:01:11.871Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DBtwKDnORPg-a1",
+          "file": "originals/tmp-DBtwKDnORPg-a1.jpg",
+          "w": 1350,
+          "h": 1687,
+          "recovered": "Re-harvested 2026-09-30 from the live post via a logged-in Chrome session; dimensions match the original record (1350x1687).",
+          "mintedAs": "mmh-2024-11-01--leilani-asian-fusion--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "DCGJTtvO27V",
+      "postUrl": "https://www.instagram.com/p/DCGJTtvO27V/",
+      "altText": null,
+      "captionText": "JOIN US THIS FRIDAY | 11.8.24 \ud83c\udff4\u200d\u2620\ufe0f \nSounds by @reroundd @madmaadhouse \nCelebrating our Partnership with @altiro_group",
+      "capturedAt": "2026-09-22T06:00:58.202Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DCGJTtvO27V-a1",
+          "file": "originals/tmp-DCGJTtvO27V-a1.jpg",
+          "w": 1440,
+          "h": 1440,
+          "mintedAs": "mmh-2024-11-08--amore-mio--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "DCN5VpYuxxR",
+      "postUrl": "https://www.instagram.com/p/DCN5VpYuxxR/",
+      "altText": null,
+      "captionText": "Latin Night | Downtown Aurora \ud83d\udcab 11.16.24\ud83c\udff4\u200d\u2620\ufe0f\n10PM-2AM | No Cover First Hour | Come Early\ud83d\udd12\nSounds by @madmaadhouse @reroundd",
+      "capturedAt": "2026-09-22T06:00:54.930Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DCN5VpYuxxR-a1",
+          "file": "originals/tmp-DCN5VpYuxxR-a1.jpg",
+          "w": 1080,
+          "h": 1080,
+          "mintedAs": "mmh-2024-11-16--amore-mio--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "DDadGvwyAyu",
+      "postUrl": "https://www.instagram.com/p/DDadGvwyAyu/",
+      "altText": null,
+      "captionText": "WYD this weekend? \ud83d\udc40 This SATURDAY DEC 14 we\u2019ll be at the @redroomonny \ud83c\udfa7\ud83c\udfa7House Music from 10PM-2AM \ud83d\udcbd | 3 great DJs spinning all night | $10 21+",
+      "capturedAt": "2026-09-22T05:59:58.941Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DDadGvwyAyu-a1",
+          "file": "originals/tmp-DDadGvwyAyu-a1.jpg",
+          "w": 1350,
+          "h": 1687,
+          "mintedAs": "mmh-2024-12-14--the-red-room--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "DEEWx_WuixK",
+      "postUrl": "https://www.instagram.com/p/DEEWx_WuixK/",
+      "altText": null,
+      "captionText": "For those who missed out\ud83d\udcab | @madmaadhouse \nThis Sunday at @dapper_brews_coffee | Free Entry \ud83e\udef6\ud83c\udffd\n1PM-3PM | Everyone is Welcome | Coffee | Networking\n140 S RIVER ST UNIT 106 @downtownaurora \ud83d\udccd",
+      "capturedAt": "2026-09-22T05:59:55.994Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DEEWx_WuixK-a1",
+          "file": "originals/tmp-DEEWx_WuixK-a1.jpg",
+          "w": 540,
+          "h": 540,
+          "mintedAs": "mmh-2024-12-29--dapper-brews-coffee--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "DHG0KejOJfb",
+      "postUrl": "https://www.instagram.com/p/DHG0KejOJfb/",
+      "altText": null,
+      "captionText": "3/29 - KIOTL 003\n\nLocation: TBA \n\n10PM-3AM \n\nRSVP and Purchase ticket via POSH, link in bio. $10. \n\nSets From: \n@j.3rri \n@jjaimevv \n@thy_niconico \n@madmaadhouse \n@a.tt1c x @josuerosalesss \n\nFeaturing Brand and Clothing Vendors \n@ssoulless.studios \n@gacvintageshopp \n\nmore updates soon. \n\nback like we never left <3",
+      "capturedAt": "2026-09-22T05:59:51.705Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DHG0KejOJfb-a1",
+          "file": "originals/tmp-DHG0KejOJfb-a1.jpg",
+          "w": 1350,
+          "h": 1687,
+          "mintedAs": "mmh-2025-03-29--undisclosed--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "DJCzCfYSoKG",
+      "postUrl": "https://www.instagram.com/p/DJCzCfYSoKG/",
+      "altText": null,
+      "captionText": "Excited to Announce our return to the UNDISPUTED VINTAGE MARKET, SATURDAY May 24th, we will be spinnin all day from 12-6PM SO pull up with your best fits and ya wallets ready for some great pieces and great music \ud83c\udfa7 \ud83d\udcbd @undisputedvintage @undisputedvintagemarket",
+      "capturedAt": "2026-09-22T05:59:47.749Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DJCzCfYSoKG-a1",
+          "file": "originals/tmp-DJCzCfYSoKG-a1.jpg",
+          "w": 1350,
+          "h": 1687,
+          "mintedAs": "mmh-2025-05-24--64-s-river-st--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "DJnPrqTR1OW",
+      "postUrl": "https://www.instagram.com/p/DJnPrqTR1OW/",
+      "altText": null,
+      "captionText": "KIOTL 005, 5/24. 10PM-4AM @ the @neverhaveieverbar Agave Den\n2247 N Lincoln Ave\n\nFREE RSVP, link in bio \ud83d\udd17\ud83d\udd17\n\n21+ EVENT\nHOUSE HOUSE HOUSE, All Night.\n\nLINEUP:\n@jjaimevv\n@valeriafride\n@darumakjo\n@aftrwrlld\n@luisvercetti\n@thy_niconico",
+      "capturedAt": "2026-09-22T05:59:43.258Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DJnPrqTR1OW-a1",
+          "file": "originals/tmp-DJnPrqTR1OW-a1.jpg",
+          "w": 1349,
+          "h": 1685,
+          "mintedAs": "mmh-2025-05-24--never-have-i-ever-bar--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "DObvxMYEj_m",
+      "postUrl": "https://www.instagram.com/p/DObvxMYEj_m/",
+      "altText": null,
+      "captionText": "FRIDAY SEPTEMBER 26TH Who said we were stopping there\u2049\ufe0f Cumbia night PART 2\n\nALL AGES\nTickets go on sale tomorrow at 4PM\nAvailable in bio \n2 W Downer PL Aurora IL",
+      "capturedAt": "2026-09-22T05:58:26.061Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DObvxMYEj_m-a1",
+          "file": "originals/tmp-DObvxMYEj_m-a1.jpg",
+          "w": 1350,
+          "h": 1688,
+          "mintedAs": "mmh-2025-09-26--east-wind-social-club--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "DOrHRWhkZ-T",
+      "postUrl": "https://www.instagram.com/p/DOrHRWhkZ-T/",
+      "altText": null,
+      "captionText": "This Week FRIDAY SEP 19 | We\u2019re back with more events, some calm deep house + dnb + jungle & more\ud83c\udfa7\ud83d\udcbf | LIVE AT EAST WIND | ALL AGES | OPEN DECKS | @eastwind.club",
+      "capturedAt": "2026-09-22T05:58:22.545Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DOrHRWhkZ-T-a1",
+          "file": "originals/tmp-DOrHRWhkZ-T-a1.jpg",
+          "w": 1350,
+          "h": 1687,
+          "mintedAs": "mmh-2025-09-19--east-wind-social-club--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "DPouVQ2jniS",
+      "postUrl": "https://www.instagram.com/p/DPouVQ2jniS/",
+      "altText": null,
+      "captionText": "\u2606 JUKE JOINT! OCT 25TH @eastwind.il \u2606 \n.\n.\n.\n.\n.\n.\n#juke #chicagosuburb #downtownaurora #ghettohouse #dj",
+      "capturedAt": "2026-09-22T05:58:18.145Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DPouVQ2jniS-a1",
+          "file": "originals/tmp-DPouVQ2jniS-a1.jpg",
+          "w": 1350,
+          "h": 1688,
+          "mintedAs": "mmh-2025-10-25--east-wind-social-club--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "DTePt3VDQcq",
+      "postUrl": "https://www.instagram.com/p/DTePt3VDQcq/",
+      "altText": null,
+      "captionText": "New year, New MMH* & Did i tell ya we\u2019re back SATURDAY JAN 24? | 11-2AM ALL AGES | House Music All night Come Dance \ud83e\udea9\ud83e\udea9\n\n#housemusic",
+      "capturedAt": "2026-09-22T05:58:14.926Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DTePt3VDQcq-a1",
+          "file": "originals/tmp-DTePt3VDQcq-a1.jpg",
+          "w": 1080,
+          "h": 1350,
+          "mintedAs": "mmh-2026-01-24--east-wind-social-club--01--a1"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-DTePt3VDQcq-a2",
+          "file": "originals/tmp-DTePt3VDQcq-a2.jpg",
+          "w": 1080,
+          "h": 1350,
+          "mintedAs": "mmh-2026-01-24--east-wind-social-club--01--a2"
+        }
+      ]
+    },
+    {
+      "shortcode": "DV_qM4TDBoF",
+      "postUrl": "https://www.instagram.com/p/DV_qM4TDBoF/",
+      "altText": null,
+      "captionText": "SATURDAY, MARCH 21st | DISCO & FUNK NIGHT AT @eastwind.il | 10PM-2AM We\u2019ll be spinnin records from all eras 70s 80s 90s. COME DANCE AND BRING YOUR BEST FIT I WANT IT TO BE LIKE STUDIO 54 \ud83e\udea9\ud83e\udea9",
+      "capturedAt": "2026-09-22T05:58:09.714Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DV_qM4TDBoF-a1",
+          "file": "originals/tmp-DV_qM4TDBoF-a1.jpg",
+          "w": 1350,
+          "h": 1688,
+          "mintedAs": "mmh-2026-03-21--east-wind-social-club--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "DW9VI56ltKy",
+      "postUrl": "https://www.instagram.com/p/DW9VI56ltKy/",
+      "altText": null,
+      "captionText": "We\u2019re so back this year, more MADMADHOUSE events this year (SWEAR) \ud83d\udcbd\ud83d\udcbd SO APRIL 18 OUR First OFFICIAL event back this year @eastwind.il | 9PM-1AM 21+ | $5 ENTRY | 4 DJS \ud83c\udfa7\ud83c\udfa7",
+      "capturedAt": "2026-09-22T05:57:05.928Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DW9VI56ltKy-a1",
+          "file": "originals/tmp-DW9VI56ltKy-a1.jpg",
+          "w": 1080,
+          "h": 1350,
+          "mintedAs": "mmh-2026-04-18--east-wind-social-club--01--a1"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-DW9VI56ltKy-a2",
+          "file": "originals/tmp-DW9VI56ltKy-a2.jpg",
+          "w": 1080,
+          "h": 1350,
+          "mintedAs": "mmh-2026-04-18--east-wind-social-club--01--a2"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-DW9VI56ltKy-a3",
+          "file": "originals/tmp-DW9VI56ltKy-a3.jpg",
+          "w": 1080,
+          "h": 1350,
+          "mintedAs": "mmh-2026-04-18--east-wind-social-club--01--a3"
+        },
+        {
+          "index": 4,
+          "tempAssetId": "tmp-DW9VI56ltKy-a4",
+          "file": "originals/tmp-DW9VI56ltKy-a4.jpg",
+          "w": 1017,
+          "h": 1271,
+          "mintedAs": "mmh-2026-04-18--east-wind-social-club--01--a4"
+        },
+        {
+          "index": 5,
+          "tempAssetId": "tmp-DW9VI56ltKy-a5",
+          "file": "originals/tmp-DW9VI56ltKy-a5.jpg",
+          "w": 1066,
+          "h": 1330,
+          "mintedAs": "mmh-2026-04-18--east-wind-social-club--01--a5"
+        }
+      ]
+    },
+    {
+      "shortcode": "DX93nuFFkt8",
+      "postUrl": "https://www.instagram.com/p/DX93nuFFkt8/",
+      "altText": null,
+      "captionText": "We\u2019re running it back for those who missed the last one, so WYD next Weekend SATURDAY MAY 16 ? 3 DJs | 21+ | $5 ENTRY\ud83c\udfa7 |  @eastwind.club HOUSE - ELECTRONIC - DETROIT - TECH",
+      "capturedAt": "2026-09-22T05:56:34.948Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DX93nuFFkt8-a1",
+          "file": "originals/tmp-DX93nuFFkt8-a1.jpg",
+          "w": 1080,
+          "h": 1350,
+          "mintedAs": "mmh-2026-05-16--east-wind-social-club--01--a1"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-DX93nuFFkt8-a2",
+          "file": "originals/tmp-DX93nuFFkt8-a2.jpg",
+          "w": 1440,
+          "h": 1800,
+          "mintedAs": "mmh-2026-05-16--east-wind-social-club--01--a2"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-DX93nuFFkt8-a3",
+          "file": "originals/tmp-DX93nuFFkt8-a3.jpg",
+          "w": 1440,
+          "h": 1800,
+          "mintedAs": "mmh-2026-05-16--east-wind-social-club--01--a3"
+        },
+        {
+          "index": 4,
+          "tempAssetId": "tmp-DX93nuFFkt8-a4",
+          "file": "originals/tmp-DX93nuFFkt8-a4.jpg",
+          "w": 981,
+          "h": 1226,
+          "mintedAs": "mmh-2026-05-16--east-wind-social-club--01--a4"
+        }
+      ]
+    },
+    {
+      "shortcode": "DXUam9DFiP4",
+      "postUrl": "https://www.instagram.com/p/DXUam9DFiP4/",
+      "altText": null,
+      "captionText": "wyd this weekend?* \ud83c\udfa7",
+      "capturedAt": "2026-09-22T05:56:57.954Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DXUam9DFiP4-a1",
+          "file": "originals/tmp-DXUam9DFiP4-a1.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-DXUam9DFiP4-a2",
+          "file": "originals/tmp-DXUam9DFiP4-a2.jpg",
+          "w": 1440,
+          "h": 1919,
+          "setAside": "_promo"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-DXUam9DFiP4-a3",
+          "file": "originals/tmp-DXUam9DFiP4-a3.jpg",
+          "w": 1161,
+          "h": 1548,
+          "setAside": "_promo"
+        },
+        {
+          "index": 4,
+          "tempAssetId": "tmp-DXUam9DFiP4-a4",
+          "file": "originals/tmp-DXUam9DFiP4-a4.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 5,
+          "tempAssetId": "tmp-DXUam9DFiP4-a5",
+          "file": "originals/tmp-DXUam9DFiP4-a5.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 6,
+          "tempAssetId": "tmp-DXUam9DFiP4-a6",
+          "file": "originals/tmp-DXUam9DFiP4-a6.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 7,
+          "tempAssetId": "tmp-DXUam9DFiP4-a7",
+          "file": "originals/tmp-DXUam9DFiP4-a7.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 8,
+          "tempAssetId": "tmp-DXUam9DFiP4-a8",
+          "file": "originals/tmp-DXUam9DFiP4-a8.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 9,
+          "tempAssetId": "tmp-DXUam9DFiP4-a9",
+          "file": "originals/tmp-DXUam9DFiP4-a9.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 10,
+          "tempAssetId": "tmp-DXUam9DFiP4-a10",
+          "file": "originals/tmp-DXUam9DFiP4-a10.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 11,
+          "tempAssetId": "tmp-DXUam9DFiP4-a11",
+          "file": "originals/tmp-DXUam9DFiP4-a11.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 12,
+          "tempAssetId": "tmp-DXUam9DFiP4-a12",
+          "file": "originals/tmp-DXUam9DFiP4-a12.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 13,
+          "tempAssetId": "tmp-DXUam9DFiP4-a13",
+          "file": "originals/tmp-DXUam9DFiP4-a13.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 14,
+          "tempAssetId": "tmp-DXUam9DFiP4-a14",
+          "file": "originals/tmp-DXUam9DFiP4-a14.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 15,
+          "tempAssetId": "tmp-DXUam9DFiP4-a15",
+          "file": "originals/tmp-DXUam9DFiP4-a15.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 16,
+          "tempAssetId": "tmp-DXUam9DFiP4-a16",
+          "file": "originals/tmp-DXUam9DFiP4-a16.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 17,
+          "tempAssetId": "tmp-DXUam9DFiP4-a17",
+          "file": "originals/tmp-DXUam9DFiP4-a17.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 18,
+          "tempAssetId": "tmp-DXUam9DFiP4-a18",
+          "file": "originals/tmp-DXUam9DFiP4-a18.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 19,
+          "tempAssetId": "tmp-DXUam9DFiP4-a19",
+          "file": "originals/tmp-DXUam9DFiP4-a19.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        },
+        {
+          "index": 20,
+          "tempAssetId": "tmp-DXUam9DFiP4-a20",
+          "file": "originals/tmp-DXUam9DFiP4-a20.jpg",
+          "w": 1440,
+          "h": 1920,
+          "setAside": "_promo"
+        }
+      ]
+    },
+    {
+      "shortcode": "DZ0lxhlsJWo",
+      "postUrl": "https://www.instagram.com/p/DZ0lxhlsJWo/",
+      "altText": null,
+      "captionText": "TONIGHT we takin over @eastwind.club again 9PM-LATE JUKE|DETROIT|HOUSE \ud83c\udfa7\ud83c\udfa7 IN COLLABORATION WITH @gardencollective_  21+",
+      "capturedAt": "2026-09-22T05:56:22.501Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DZ0lxhlsJWo-a1",
+          "file": "originals/tmp-DZ0lxhlsJWo-a1.jpg",
+          "w": 1350,
+          "h": 1688,
+          "mintedAs": "mmh-2026-06-20--east-wind-social-club--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "DZJtWDGljz2",
+      "postUrl": "https://www.instagram.com/p/DZJtWDGljz2/",
+      "altText": null,
+      "captionText": "Disco N Funk is back and we Spinning 11PM-1AM | FRIDAY JUNE 5 | AFTERS AT @eastwind.club \ud83e\udea9\ud83e\udea9",
+      "capturedAt": "2026-09-22T05:56:28.944Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DZJtWDGljz2-a1",
+          "file": "originals/tmp-DZJtWDGljz2-a1.jpg",
+          "w": 1080,
+          "h": 1350,
+          "mintedAs": "mmh-2026-06-05--east-wind-social-club--01--a1"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-DZJtWDGljz2-a2",
+          "file": "originals/tmp-DZJtWDGljz2-a2.jpg",
+          "w": 3213,
+          "h": 4011,
+          "mintedAs": "mmh-2026-06-05--east-wind-social-club--01--a2"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-DZJtWDGljz2-a3",
+          "file": "originals/tmp-DZJtWDGljz2-a3.jpg",
+          "w": 1206,
+          "h": 1507,
+          "mintedAs": "mmh-2026-06-05--east-wind-social-club--01--a3"
+        }
+      ]
+    },
+    {
+      "shortcode": "DagAvqTRV9Q",
+      "postUrl": "https://www.instagram.com/p/DagAvqTRV9Q/",
+      "altText": null,
+      "captionText": "LATE NITE FRIDAY JULY 17TH @madmaadhouse spinning up some rnb funk and disco to ease your stress \ud83e\udea9\ud83d\udca5\ud83d\udce2\n\n11pm-1am\n17+\n$10 cover\n\n#aurorail #chicagoland #chicago",
+      "capturedAt": "2026-09-22T05:55:02.418Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DagAvqTRV9Q-a1",
+          "file": "originals/tmp-DagAvqTRV9Q-a1.jpg",
+          "w": 1350,
+          "h": 1688,
+          "mintedAs": "mmh-2026-07-17--east-wind-social-club--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "Dc2GxL8DeIH",
+      "postUrl": "https://www.instagram.com/p/Dc2GxL8DeIH/",
+      "altText": null,
+      "captionText": "SUNDAY! September 6TH, Market96 is hosting their 3YEAR Anniversary Market 12PM-6PM | @luisvercetti & @thy_niconico will be spinning all genres | HOUSE MUSIC / OPEN FORMAT | FREE ENTRY | 1144 douglas rd, oswego il",
+      "capturedAt": "2026-09-22T05:54:53.928Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-Dc2GxL8DeIH-a1",
+          "file": "originals/tmp-Dc2GxL8DeIH-a1.jpg",
+          "w": 1080,
+          "h": 1350,
+          "mintedAs": "mmh-2026-09-06--market96--01--a1"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-Dc2GxL8DeIH-a2",
+          "file": "originals/tmp-Dc2GxL8DeIH-a2.jpg",
+          "w": 1206,
+          "h": 1507,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a18"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-Dc2GxL8DeIH-a3",
+          "file": "originals/tmp-Dc2GxL8DeIH-a3.jpg",
+          "w": 1080,
+          "h": 1350,
+          "mintedAs": "mmh-2026-09-06--market96--01--a3"
+        },
+        {
+          "index": 4,
+          "tempAssetId": "tmp-Dc2GxL8DeIH-a4",
+          "file": "originals/tmp-Dc2GxL8DeIH-a4.jpg",
+          "w": 1161,
+          "h": 1451,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a19"
+        }
+      ]
+    },
+    {
+      "shortcode": "Dc4aWofn6WX",
+      "postUrl": "https://www.instagram.com/p/Dc4aWofn6WX/",
+      "altText": null,
+      "captionText": "madmaadhouse* \u2013 live at Deep Dive Media Market - 8/22/26\n@madmaadhouse \n@deepdivemediamarket",
+      "capturedAt": "2026-09-22T05:54:47.927Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-Dc4aWofn6WX-a1",
+          "file": "originals/tmp-Dc4aWofn6WX-a1.jpg",
+          "w": 2005,
+          "h": 2673,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a4"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-Dc4aWofn6WX-a2",
+          "file": "originals/tmp-Dc4aWofn6WX-a2.jpg",
+          "w": 1356,
+          "h": 1808,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a5"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-Dc4aWofn6WX-a3",
+          "file": "originals/tmp-Dc4aWofn6WX-a3.jpg",
+          "w": 2004,
+          "h": 2672,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a6"
+        },
+        {
+          "index": 4,
+          "tempAssetId": "tmp-Dc4aWofn6WX-a4",
+          "file": "originals/tmp-Dc4aWofn6WX-a4.jpg",
+          "w": 2004,
+          "h": 2672,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a7"
+        },
+        {
+          "index": 5,
+          "tempAssetId": "tmp-Dc4aWofn6WX-a5",
+          "file": "originals/tmp-Dc4aWofn6WX-a5.jpg",
+          "w": 3072,
+          "h": 4096,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a8"
+        },
+        {
+          "index": 6,
+          "tempAssetId": "tmp-Dc4aWofn6WX-a6",
+          "file": "originals/tmp-Dc4aWofn6WX-a6.jpg",
+          "w": 1442,
+          "h": 1922,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a9"
+        },
+        {
+          "index": 7,
+          "tempAssetId": "tmp-Dc4aWofn6WX-a7",
+          "file": "originals/tmp-Dc4aWofn6WX-a7.jpg",
+          "w": 1892,
+          "h": 2522,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a10"
+        },
+        {
+          "index": 8,
+          "tempAssetId": "tmp-Dc4aWofn6WX-a8",
+          "file": "originals/tmp-Dc4aWofn6WX-a8.jpg",
+          "w": 3072,
+          "h": 4096,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a11"
+        },
+        {
+          "index": 9,
+          "tempAssetId": "tmp-Dc4aWofn6WX-a9",
+          "file": "originals/tmp-Dc4aWofn6WX-a9.jpg",
+          "w": 2005,
+          "h": 2673,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a12"
+        },
+        {
+          "index": 10,
+          "tempAssetId": "tmp-Dc4aWofn6WX-a10",
+          "file": "originals/tmp-Dc4aWofn6WX-a10.jpg",
+          "w": 3072,
+          "h": 4096,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a13"
+        },
+        {
+          "index": 11,
+          "tempAssetId": "tmp-Dc4aWofn6WX-a11",
+          "file": "originals/tmp-Dc4aWofn6WX-a11.jpg",
+          "w": 2006,
+          "h": 2674,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a14"
+        },
+        {
+          "index": 12,
+          "tempAssetId": "tmp-Dc4aWofn6WX-a12",
+          "file": "originals/tmp-Dc4aWofn6WX-a12.jpg",
+          "w": 2005,
+          "h": 2673,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a15"
+        },
+        {
+          "index": 13,
+          "tempAssetId": "tmp-Dc4aWofn6WX-a13",
+          "file": "originals/tmp-Dc4aWofn6WX-a13.jpg",
+          "w": 2637,
+          "h": 3516,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a16"
+        },
+        {
+          "index": 14,
+          "tempAssetId": "tmp-Dc4aWofn6WX-a14",
+          "file": "originals/tmp-Dc4aWofn6WX-a14.jpg",
+          "w": 2001,
+          "h": 2668,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a17"
+        }
+      ]
+    },
+    {
+      "shortcode": "DcFWc3OjSpV",
+      "postUrl": "https://www.instagram.com/p/DcFWc3OjSpV/",
+      "altText": null,
+      "captionText": "SATURDAY, AUGUST 22ND | DNB & DEEPHOUSE AT @aidansrags MEDIA MARKET 12PM-6PM| LIVE DJ SET FROM @thy_niconico N @luisvercetti | FREE ENTRY 55 MIDDLE AVE, AURORA IL \ud83c\udfa7\ud83c\udfa7",
+      "capturedAt": "2026-09-22T05:54:58.959Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DcFWc3OjSpV-a1",
+          "file": "originals/tmp-DcFWc3OjSpV-a1.jpg",
+          "w": 720,
+          "h": 900,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a1"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-DcFWc3OjSpV-a2",
+          "file": "originals/tmp-DcFWc3OjSpV-a2.jpg",
+          "w": 1080,
+          "h": 1350,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a2"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-DcFWc3OjSpV-a3",
+          "file": "originals/tmp-DcFWc3OjSpV-a3.jpg",
+          "w": 1155,
+          "h": 1441,
+          "mintedAs": "mmh-2026-08-22--aidansrags-media-market--01--a3"
+        }
+      ]
+    },
+    {
+      "shortcode": "DdZK1qklgTb",
+      "postUrl": "https://www.instagram.com/p/DdZK1qklgTb/",
+      "altText": null,
+      "captionText": "WYD THIS SATURDAY SEPT 19? WE\u2019RE BACK AND TAKIN OVER @holaamor.naperville WIT\u2019 SOME HOUSE MUSIC 10PM-2AM \ud83c\udfa7 4 DJS | HOUSE - TECH - LATIN | 21+ \ud83d\udcbf\ud83d\udcbf",
+      "capturedAt": "2026-09-22T05:54:28.930Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-DdZK1qklgTb-a1",
+          "file": "originals/tmp-DdZK1qklgTb-a1.jpg",
+          "w": 1080,
+          "h": 1350,
+          "mintedAs": "mmh-2026-09-19--hola-amor--01--a1"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-DdZK1qklgTb-a2",
+          "file": "originals/tmp-DdZK1qklgTb-a2.jpg",
+          "w": 1080,
+          "h": 1350,
+          "mintedAs": "mmh-2026-09-19--hola-amor--01--a2"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-DdZK1qklgTb-a3",
+          "file": "originals/tmp-DdZK1qklgTb-a3.jpg",
+          "w": 1206,
+          "h": 1507,
+          "mintedAs": "mmh-2026-09-19--hola-amor--01--a3"
+        },
+        {
+          "index": 4,
+          "tempAssetId": "tmp-DdZK1qklgTb-a4",
+          "file": "originals/tmp-DdZK1qklgTb-a4.jpg",
+          "w": 1086,
+          "h": 1357,
+          "mintedAs": "mmh-2026-09-19--hola-amor--01--a4"
+        },
+        {
+          "index": 5,
+          "tempAssetId": "tmp-DdZK1qklgTb-a5",
+          "file": "originals/tmp-DdZK1qklgTb-a5.jpg",
+          "w": 3277,
+          "h": 4096,
+          "mintedAs": "mmh-2026-09-19--hola-amor--01--a5"
+        }
+      ]
+    },
+    {
+      "shortcode": "Ddmu8Syzhcx",
+      "postUrl": "https://www.instagram.com/p/Ddmu8Syzhcx/",
+      "sourceAccount": "vadozhouse",
+      "altText": null,
+      "captionText": "5K RSVP REQUIRED TO ENTER | LINK IN BIO \ud83d\udd17",
+      "capturedAt": "2026-10-01T00:00:00.000Z",
+      "hasCarousel": false,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-Ddmu8Syzhcx-a1",
+          "file": "originals/tmp-Ddmu8Syzhcx-a1.jpg",
+          "w": 1350,
+          "h": 1687,
+          "mintedAs": "mmh-2026-09-27--carmines--01--a1"
+        }
+      ]
+    },
+    {
+      "shortcode": "C6NKXX7rbaP",
+      "postUrl": "https://www.instagram.com/p/C6NKXX7rbaP/",
+      "sourceAccount": "le__bump",
+      "altText": null,
+      "captionText": "2 YEAR PARTY LINEUP \ud83e\udd29\ud83e\udd29\ud83e\udd29\n\nWe called in some heavy hitters of the extended universe for a massive night of raw energy \ud83d\udc4a\u26a1\ufe0f\n\nTICKETS WILL GO FAST so get yours, get your friends, and get ready to start the summer with us \n\nLink in our bio",
+      "capturedAt": "2026-10-01T00:00:00.000Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C6NKXX7rbaP-a1",
+          "file": "originals/tmp-C6NKXX7rbaP-a1.jpg",
+          "w": 1440,
+          "h": 1800,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a7"
+        }
+      ]
+    },
+    {
+      "shortcode": "C53uPT4rDBE",
+      "postUrl": "https://www.instagram.com/p/C53uPT4rDBE/",
+      "sourceAccount": "le__bump",
+      "altText": null,
+      "captionText": "TWO YEARS OF L\u00c9 BUMP \nFRIDAY, MAY 10 AT @subtchicago \n\n2 years, a million beers, and countless memories. Join us in celebrating the biggest party in the world as we bring it back to @subtchicago to kick the summer off. Lineup dropping next week but let us know who you wanna see DJ in the comments \ud83d\udc40 and swipe to look back at our one year party at @blindbarber_chicago \ud83e\udd79 early bird tickets available at the link in bio!!",
+      "capturedAt": "2026-10-01T00:00:00.000Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C53uPT4rDBE-a1",
+          "file": "originals/tmp-C53uPT4rDBE-a1.jpg",
+          "w": 1440,
+          "h": 1800,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a8"
+        }
+      ]
+    },
+    {
+      "shortcode": "C62OYEZrf1X",
+      "postUrl": "https://www.instagram.com/p/C62OYEZrf1X/",
+      "sourceAccount": "le__bump",
+      "altText": null,
+      "captionText": "2 years of L\u00e9 Bump with some very very special guests \ud83e\udef6\ud83e\udef6\n\nThank you to everyone who came, danced, and helped sell out @subtchicago !! We wouldn\u2019t be here without all of you\n\n\ud83d\udcf8: @grantjodoin",
+      "capturedAt": "2026-10-01T00:00:00.000Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-C62OYEZrf1X-a1",
+          "file": "originals/tmp-C62OYEZrf1X-a1.jpg",
+          "w": 1440,
+          "h": 1555,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a9"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-C62OYEZrf1X-a2",
+          "file": "originals/tmp-C62OYEZrf1X-a2.jpg",
+          "w": 1440,
+          "h": 1551,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a10"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-C62OYEZrf1X-a3",
+          "file": "originals/tmp-C62OYEZrf1X-a3.jpg",
+          "w": 1440,
+          "h": 1555,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a11"
+        },
+        {
+          "index": 4,
+          "tempAssetId": "tmp-C62OYEZrf1X-a4",
+          "file": "originals/tmp-C62OYEZrf1X-a4.jpg",
+          "w": 1440,
+          "h": 1555,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a12"
+        },
+        {
+          "index": 5,
+          "tempAssetId": "tmp-C62OYEZrf1X-a5",
+          "file": "originals/tmp-C62OYEZrf1X-a5.jpg",
+          "w": 1440,
+          "h": 1555,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a13"
+        },
+        {
+          "index": 6,
+          "tempAssetId": "tmp-C62OYEZrf1X-a6",
+          "file": "originals/tmp-C62OYEZrf1X-a6.jpg",
+          "w": 1440,
+          "h": 1555,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a14"
+        },
+        {
+          "index": 7,
+          "tempAssetId": "tmp-C62OYEZrf1X-a7",
+          "file": "originals/tmp-C62OYEZrf1X-a7.jpg",
+          "w": 1440,
+          "h": 1555,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a15"
+        },
+        {
+          "index": 8,
+          "tempAssetId": "tmp-C62OYEZrf1X-a8",
+          "file": "originals/tmp-C62OYEZrf1X-a8.jpg",
+          "w": 1440,
+          "h": 1555,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a16"
+        },
+        {
+          "index": 9,
+          "tempAssetId": "tmp-C62OYEZrf1X-a9",
+          "file": "originals/tmp-C62OYEZrf1X-a9.jpg",
+          "w": 1440,
+          "h": 1555,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a17"
+        },
+        {
+          "index": 10,
+          "tempAssetId": "tmp-C62OYEZrf1X-a10",
+          "file": "originals/tmp-C62OYEZrf1X-a10.jpg",
+          "w": 1440,
+          "h": 1551,
+          "mintedAs": "mmh-2024-05-10--subterranean--01--a18"
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "shortcode": "C4ZIfJiurRC",
+      "reason": "reel (video post, media_type 2); cover is a low-res 9:16 video still, not a static flyer"
+    },
+    {
+      "shortcode": "C59sGJMO03p",
+      "reason": "reel (video post, media_type 2); cover is a low-res 9:16 video still, not a static flyer"
+    },
+    {
+      "shortcode": "C5WgAueuwE0",
+      "reason": "reel (video post, media_type 2); cover is a low-res 9:16 video still, not a static flyer"
+    },
+    {
+      "shortcode": "DD8QcGGuMod",
+      "reason": "reel (video post, media_type 2); cover is a low-res 9:16 video still, not a static flyer"
+    },
+    {
+      "shortcode": "DELuTrJu9og",
+      "reason": "reel (video post, media_type 2); cover is a low-res 9:16 video still, not a static flyer"
+    },
+    {
+      "shortcode": "DUqq4HFABMB",
+      "reason": "reel (video post, media_type 2); cover is a low-res 9:16 video still, not a static flyer"
+    },
+    {
+      "shortcode": "DXX-61FDWcn",
+      "reason": "reel (video post, media_type 2); cover is a low-res 9:16 video still, not a static flyer"
+    }
+  ]
+}

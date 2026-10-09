@@ -1,0 +1,106 @@
+/**
+ * Design tokens.
+ *
+ * The palette here is DELIBERATELY NEUTRAL and temporary. Decided 2026-09-20:
+ * MMH's color comes from the flyers themselves, derived by
+ * scripts/extract_palette.py once the archive lands, not from a supplied brand
+ * file. Until then the chrome stays out of the way, which is the brief's
+ * instruction anyway: let the posters carry the color.
+ *
+ * Motion values are NOT here. They live in src/motion/tokens.ts and are injected
+ * as custom properties at runtime, so JS and CSS cannot drift apart.
+ */
+
+:root {
+  /* Field. Near-black rather than pure: pure black makes a scanned flyer's own
+     black look like a hole punched in the page. */
+  --c-field: #0b0b0c;
+  --c-field-raised: #141416;
+  --c-ink: #f2f0ec;
+  --c-ink-dim: #8a8a8f;
+  /* Raised from #4e4e55, which measured 2.38:1 against the field. The archive's
+     date captions use this, and a date is content, not decoration, so it has to
+     clear WCAG AA. 4.55:1 is the least-extreme value that does, which keeps it
+     as quiet as it can honestly be. */
+  --c-ink-faint: #797980;
+  /* Decorative divider only. It carries no state and bounds no control, so
+     1.4.11's 3:1 does not apply to it; scripts/contrast_check.py reports it as
+     informational rather than as a failure. Raising it to 3:1 would turn a
+     hairline into a drawn line and change the design. */
+  --c-rule: #232327;
+  /* Resting opacity of the nav, the event arrows and the archive title. Under the
+     difference blend, 0.95 renders about 9% under white on the dark field and 9%
+     above black on paper. Nico 2026-09-30: 0.81 read as nearly unreadable, and
+     the target is 5 to 10% short of full white or black. */
+  --chrome-rest: 0.95;
+  /* Single accent, provisional, replaced by the derived palette. */
+  --c-accent: #f2f0ec;
+
+  --font-sans: "Helvetica Neue", Helvetica, Inter, "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* Type scale. Clamped so nothing needs a breakpoint to be readable. */
+  --t-xs: clamp(0.66rem, 0.62rem + 0.18vw, 0.74rem);
+  --t-sm: clamp(0.76rem, 0.72rem + 0.2vw, 0.86rem);
+  --t-md: clamp(0.95rem, 0.9rem + 0.3vw, 1.08rem);
+  --t-lg: clamp(1.4rem, 1.1rem + 1.4vw, 2.4rem);
+  --t-xl: clamp(2.2rem, 1.4rem + 3.8vw, 5.5rem);
+
+  --track-tight: -0.02em;
+  --track-wide: 0.14em;
+
+  /* Space scale. */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-6: 1.5rem;
+  --s-8: 2rem;
+  --s-12: 3rem;
+  --s-16: 4rem;
+  --s-24: 6rem;
+  --s-32: 8rem;
+
+  /* The gutter is the one number the whole layout hangs on. 16px at phone
+     width is the brief's requirement; it opens up from there. */
+  --gutter: clamp(1rem, 0.6rem + 2vw, 2.5rem);
+  /* Clearance for the centre-fixed nav, so content can sit either side of it
+     instead of behind it. Measured against the rendered nav width. */
+  --nav-lane: clamp(12rem, 16vw, 15rem);
+  --measure: 62ch;
+
+  --z-chrome: 100;
+  --z-marker: 90;
+}
+
+/**
+ * Light scheme, taken from the system preference.
+ *
+ * Not an inversion. The dark field is near-black because a nightlife archive of
+ * scanned flyers reads that way; the light field is a warm paper tone for the
+ * same reason, so the artifacts sit on something that behaves like the stock
+ * they were printed on rather than on a UI white.
+ *
+ * Every value here was solved against WCAG AA rather than picked, and the pairs
+ * are verified by scripts/contrast_check.py. Body text sits well above the
+ * minimum; the quiet tokens sit just above it, which is the point of solving
+ * for the least-extreme passing value instead of defaulting to black.
+ *
+ * What does NOT need a light variant, and why that is a nice property: the nav
+ * and the event-view metadata use `mix-blend-mode: difference` over pure white.
+ * Difference inverts whatever is behind it, so the same declaration renders
+ * near-white type on the dark field and near-black type on the paper one with
+ * no second rule. The blend mode was chosen for legibility over full-bleed
+ * posters and it pays for the colour scheme as well.
+ */
+@media (prefers-color-scheme: light) {
+  :root {
+    --c-field: #f3f1ec;
+    --c-field-raised: #e7e4dd;
+    --c-ink: #121214;
+    --c-ink-dim: #6e6e71;
+    --c-ink-faint: #6e6e71;
+    --c-rule: #d6d2c9;
+    --c-accent: #121214;
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MADMADHOUSE poster harvest manifest",
+  "description": "Written by the Cowork / Claude-in-Chrome harvest session. Consumed by the Claude Code build session. This file plus assets/posters/originals/ is the entire interface between the two sessions.",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "account",
+    "harvestedAt",
+    "posts"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "account": {
+      "const": "madmaadhouse"
+    },
+    "harvestedAt": {
+      "type": "string",
+      "description": "ISO 8601, when the harvest run finished"
+    },
+    "postCount": {
+      "type": "integer",
+      "description": "Posts the grid reported, for reconciliation against posts[].length"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Anything the harvest session wants the build session to know"
+    },
+    "posts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "shortcode",
+          "postUrl",
+          "capturedAt",
+          "hasCarousel",
+          "images"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "shortcode": {
+            "type": "string",
+            "minLength": 5
+          },
+          "postUrl": {
+            "type": "string",
+            "pattern": "^https://www\\.instagram\\.com/p/"
+          },
+          "altText": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "The image alt attribute VERBATIM. The strongest extraction signal: it carries transcribed flyer text with @handles inline. null only if the attribute was genuinely absent."
+          },
+          "captionText": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Full caption VERBATIM. Do not trim, translate, or clean."
+          },
+          "capturedAt": {
+            "type": "string"
+          },
+          "hasCarousel": {
+            "type": "boolean"
+          },
+          "images": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "index",
+                "tempAssetId",
+                "file",
+                "w",
+                "h"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "index": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "description": "1-based slide position within the post"
+                },
+                "tempAssetId": {
+                  "type": "string",
+                  "pattern": "^tmp-[A-Za-z0-9_-]+-a[0-9]+$",
+                  "description": "Shortcode-keyed. Renamed to the real mmh-DATE--venue--NN assetId in Phase 4, once the date is resolved."
+                },
+                "file": {
+                  "type": "string",
+                  "pattern": "^originals/",
+                  "description": "Path relative to assets/posters/"
+                },
+                "w": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "description": "naturalWidth of the served image"
+                },
+                "h": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "description": "naturalHeight of the served image"
+                },
+                "mintedAs": {
+                  "type": "string",
+                  "description": "Real mmh- assetId this image was renamed to by mint_assets.py. Present only after minting; the file on disk is <mintedAs>.jpg, not <tempAssetId>.jpg."
+                },
+                "setAside": {
+                  "type": "string",
+                  "description": "Sibling folder under assets/posters/ this image was deliberately moved to because it is not an event flyer (e.g. '_promo'). The harvest record stays intact; the validator looks for the file there instead of failing."
+                }
+              }
+            }
+          },
+          "sourceAccount": {
+            "type": "string",
+            "description": "Set when the post is NOT the harvested account's own: a presenter's or venue's post that documents a night (2026-10-01, the Vadoz Rooftop Afters flyer is @vadozhouse's). Excluded from postCount reconciliation, which counts the account's own grid only."
+          }
+        }
+      }
+    },
+    "failures": {
+      "type": "array",
+      "description": "Posts that could not be captured. Recording a failure is required; silently dropping a post is not acceptable, because the build session reconciles against postCount.",
+      "items": {
+        "type": "object",
+        "required": [
+          "shortcode",
+          "reason"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "shortcode": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
