@@ -20,7 +20,7 @@ from pathlib import Path
 PROJECT = Path(__file__).resolve().parent.parent
 DRAFTS = PROJECT / "events.draft.json"
 CACHE = PROJECT / "venue-coords.json"
-UA = "madmadhouse-archive/1.0 (https://github.com/niconicocarrera/madmadhouse)"
+UA = "madmadhouse-archive/1.0 (https://github.com/niconicocarrera/madmadhouse-site)"
 
 
 def query(addr: str):
