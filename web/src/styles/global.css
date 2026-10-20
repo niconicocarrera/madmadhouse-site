@@ -84,7 +84,7 @@ body:has(.ev) { overflow: hidden; }
 /* ---------- nav home ----------
    The nav's home: its MMH text on the gutter, its top at --nav-home-top. On a
    phone it STARTS there on every page (Chrome.tsx reads --nav-home-default);
-   on wider screens only a page marked data-nav-home sends it there on Escape.
+   on wider screens too (every page, every size).
    --nav-dock-h is written by Chrome from the measured dock, so --page-top (where
    content starts under a homed nav) follows the nav if its size ever changes. */
 :root {
@@ -92,12 +92,11 @@ body:has(.ev) { overflow: hidden; }
   --nav-home-gap: var(--s-12);
   --nav-dock-h: 1.75rem;
   --page-top: calc(var(--nav-home-top) + var(--nav-dock-h) + var(--nav-home-gap));
-  --nav-home-default: 0;
+  --nav-home-default: 1;
 }
 /* The one phone breakpoint for the nav. Info.css switches columns at the same
    900px. */
 @media (max-width: 899.98px) {
-  :root { --nav-home-default: 1; }
   main { padding-top: var(--page-top); }
 }
 

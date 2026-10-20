@@ -24,6 +24,8 @@ import "./EventView.css";
  * The night is held in the URL (`?e=`), so it is linkable, the back button works,
  * and ARCHIVE can open straight to one.
  */
+export type EventViewMode = "poster" | "both";
+
 export default function EventView() {
   const events = useEvents();
   const [params, setParams] = useSearchParams();
@@ -36,6 +38,22 @@ export default function EventView() {
   }, [events, params]);
 
   const entry = events?.[index];
+
+  // The view follows the night: a poster alone is shown centred ("poster"); a
+  // poster with media is shown poster left, media right ("both"). Phones always
+  // show one thing at a time, so they are "poster".
+  const effective: EventViewMode =
+    entry && !phone && entry.assets.some((a) => a.role !== "flyer") ? "both" : "poster";
+
+  // Published for the nav, which reads it on the initial load and on Escape. It
+  // never moves the nav by itself.
+  useEffect(() => {
+    if (!entry) return;
+    const root = document.documentElement;
+    root.dataset.evView = effective;
+    window.dispatchEvent(new Event("mmh:navhome"));
+    return () => { delete root.dataset.evView; };
+  }, [entry, effective]);
 
   const go = useCallback(
     (delta: number) => {
@@ -87,6 +105,64 @@ export default function EventView() {
     };
   }, [go, events]);
 
+  // Two-finger swipe on a trackpad arrives as horizontal wheel events, then an
+  // inertia tail that keeps going after the fingers lift. One swipe turns exactly
+  // one page: after a turn the wheel is locked until it has been completely
+  // silent for SILENCE_MS (every event, tail included, restarts that clock), so
+  // the tail can never turn another page however long or noisy it is.
+  // One swipe, one page. The state lives in refs, not in the effect: `go`
+  // changes on every page turn, which re-runs the effect, and state kept inside
+  // it would reset the lock the moment it was set.
+  //
+  // After a turn the wheel is locked for MIN_LOCK_MS. It then unlocks when the
+  // wheel goes quiet for QUIET_MS, or when a NEW swipe begins: the tail decays
+  // to near zero, so once it has dipped below it a delta back above PUSH is a
+  // fresh push by the fingers.
+  const wheel = useRef({ sum: 0, locked: false, lockUntil: 0, lastT: 0, decayed: false, push: 0 });
+  const goRef = useRef(go);
+  goRef.current = go;
+  useEffect(() => {
+    const el = sectionRef.current;
+    if (!el) return;
+    const THRESHOLD = 45;
+    const MIN_LOCK_MS = 450;
+    const QUIET_MS = 120;
+    const TAIL_LOW = 8;
+    const PUSH = 15;
+    const PUSH_EVENTS = 3;
+    const onWheel = (e: WheelEvent) => {
+      if (Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return; // vertical belongs to the browser
+      e.preventDefault();
+      const w = wheel.current;
+      const now = performance.now();
+      const abs = Math.abs(e.deltaX);
+      const gap = now - w.lastT;
+      w.lastT = now;
+      if (w.locked) {
+        if (abs < TAIL_LOW) w.decayed = true;
+        // A fresh swipe is a SUSTAINED push, not a single spike in the tail.
+        w.push = w.decayed && abs >= PUSH ? w.push + 1 : 0;
+        const newPush = w.push >= PUSH_EVENTS;
+        if (now < w.lockUntil || (gap <= QUIET_MS && !newPush)) return;
+        w.locked = false;
+        w.sum = 0;
+      } else if (gap > QUIET_MS) {
+        w.sum = 0;
+      }
+      w.sum += e.deltaX;
+      if (Math.abs(w.sum) >= THRESHOLD) {
+        w.locked = true;
+        w.lockUntil = now + MIN_LOCK_MS;
+        w.decayed = false;
+        w.push = 0;
+        goRef.current(w.sum > 0 ? 1 : -1);
+        w.sum = 0;
+      }
+    };
+    el.addEventListener("wheel", onWheel, { passive: false });
+    return () => el.removeEventListener("wheel", onWheel);
+  }, [events]);
+
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "ArrowRight") { e.preventDefault(); go(1); }
@@ -110,7 +186,7 @@ export default function EventView() {
 
   let media;
   if (phone) media = <Cycle key={k} assets={[...posters, ...rest]} label={label} className="ev__stage--solo" />;
-  else if (rest.length === 0) media = <Cycle key={k} assets={posters} label={label} className="ev__stage--solo" />;
+  else if (effective === "poster") media = <Cycle key={k} assets={posters} label={label} className="ev__stage--solo" />;
   else media = (
     <div className="ev__spread">
       <Cycle key={`${k}:p`} assets={posters} label={label} className="ev__stage--poster" />

@@ -11,7 +11,7 @@
   display: flex;
   align-items: flex-start;   /* columns end where they end. The raggedness IS the look. */
   gap: var(--gutter);
-  padding-block: var(--s-12) var(--s-32);
+  padding-block: calc(var(--page-top) - var(--s-8)) var(--s-32);
 }
 
 @media (min-width: 1500px) { .archive { --archive-cols: 4; } }

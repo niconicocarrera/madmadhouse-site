@@ -16,9 +16,11 @@ import "./Chrome.css";
  * until the remaining distance is sub-pixel, which is what gives the drop its
  * settle without a separate animation.
  *
- * Position persists per viewer in localStorage. Every access is wrapped: a
- * private window, cleared site data, or a blocked origin must not stop the nav
- * rendering, so a failure silently means "start from centre".
+ * A position the viewer dragged to persists per viewer in localStorage and wins
+ * on every page. With nothing saved the nav rests at HOME (top left, MMH on the
+ * gutter, see global.css), except on an event page in poster + media, which
+ * publishes data-ev-view="both" and keeps it centred. Every access is wrapped: a
+ * private window or blocked origin must not stop the nav rendering.
  *
  * Accessibility: the handle is a real button, so the nav can be moved from the
  * keyboard with the arrow keys, and Escape or a double click returns it to rest.
@@ -73,14 +75,9 @@ function cssPx(length: string): number {
   return Number.isNaN(px) ? 0 : px;
 }
 
-/** Phone layout: the nav starts at home on every page (global.css). */
-function phoneHome(): boolean {
-  return getComputedStyle(document.documentElement).getPropertyValue("--nav-home-default").trim() === "1";
-}
-
-/** Does Escape go home here, or to centre? Phones always; wider, only a page marked data-nav-home. */
-function hasHome(): boolean {
-  return phoneHome() || document.querySelector("[data-nav-home]") !== null;
+/** Poster + media event page: the only view where the nav starts and returns to centre. */
+function viewIsBoth(): boolean {
+  return document.documentElement.dataset.evView === "both";
 }
 
 /**
@@ -113,11 +110,6 @@ function homeOffset(dock: HTMLElement | null): Offset {
   };
 }
 
-/** Escape and double click: home where there is one, centre otherwise. */
-function restOffset(dock: HTMLElement | null): Offset {
-  return hasHome() ? homeOffset(dock) : { x: 0, y: 0 };
-}
-
 function readStored(): Offset {
   try {
     const raw = localStorage.getItem(STORE_KEY);
@@ -128,6 +120,15 @@ function readStored(): Offset {
     /* private window, blocked storage, malformed value: start from centre */
   }
   return { x: 0, y: 0 };
+}
+
+function hasStored(): boolean {
+  try { return localStorage.getItem(STORE_KEY) !== null; } catch { return false; }
+}
+
+/** Escape and double click forget a saved position, so the page default applies again. */
+function clearStored() {
+  try { localStorage.removeItem(STORE_KEY); } catch { /* nothing saved to clear */ }
 }
 
 function writeStored(o: Offset) {
@@ -154,6 +155,8 @@ export function Chrome() {
   // than EDGE_MARGIN (on a phone, aligning to the gutter needs ~6px). Any drag
   // or nudge clears it and the usual margin applies again.
   const atHome = useRef(false);
+  // True once the viewer has moved the nav; only then is a position remembered.
+  const userMoved = useRef(false);
   const margin = useCallback(() => (atHome.current ? 0 : EDGE_MARGIN), []);
 
   const apply = useCallback(() => {
@@ -183,7 +186,7 @@ export function Chrome() {
       current.current = { ...target.current };
       apply();
       raf.current = null;
-      writeStored(target.current);
+      if (userMoved.current) writeStored(target.current);
     }
   }, [apply, margin]);
 
@@ -191,26 +194,51 @@ export function Chrome() {
     if (raf.current == null) raf.current = requestAnimationFrame(tick);
   }, [tick]);
 
-  // On a phone every page starts with the nav at home. Placed, not eased: the
-  // nav is simply there when the page appears.
+  // Placed once, on the initial load, then left alone: paging between nights or
+  // changing route never moves the nav. A saved (dragged) position wins; else
+  // centre when the event page is poster + media, top left everywhere else.
   const { pathname } = useLocation();
-  useEffect(() => {
-    const frame = requestAnimationFrame(() => {
-      if (!phoneHome()) return;
+  const placed = useRef(false);
+  const place = useCallback(() => {
+    if (placed.current) return;
+    placed.current = true;
+    const el = dockRef.current;
+    let next: Offset;
+    if (hasStored()) {
+      userMoved.current = true;
+      next = clampOffset(readStored(), el);
+    } else if (viewIsBoth()) {
+      next = { x: 0, y: 0 };
+    } else {
       atHome.current = true;
-      const home = clampOffset(homeOffset(dockRef.current), dockRef.current, 0);
-      target.current = home;
-      current.current = { ...home };
-      // Skip the CSS transition for this one placement, or it slides in.
-      const el = dockRef.current;
-      if (el) el.style.transition = "none";
-      apply();
-      el?.getBoundingClientRect(); // commit the jump before restoring
-      if (el) el.style.transition = "";
-      writeStored(home);
-    });
-    return () => cancelAnimationFrame(frame);
-  }, [pathname, apply]);
+      next = clampOffset(homeOffset(el), el, 0);
+    }
+    target.current = next;
+    current.current = { ...next };
+    // Placed, not eased: the nav is simply there when the page appears.
+    if (el) el.style.transition = "none";
+    apply();
+    el?.getBoundingClientRect(); // commit the jump before restoring
+    if (el) el.style.transition = "";
+  }, [apply]);
+
+  useEffect(() => {
+    // The event page knows its view only once its data has loaded, so on that
+    // route wait for it (with a fallback if the data never arrives).
+    const onView = () => requestAnimationFrame(place);
+    let fallback = 0;
+    if (pathname === "/") {
+      window.addEventListener("mmh:navhome", onView);
+      fallback = window.setTimeout(place, 2000);
+    } else {
+      onView();
+    }
+    return () => {
+      window.removeEventListener("mmh:navhome", onView);
+      clearTimeout(fallback);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // Wayfinding: circling or shaking the pointer lights the nav up.
   useEffect(() => startNavSeek(), []);
@@ -248,9 +276,8 @@ export function Chrome() {
     // must not have to clear site data to get it back.
     const onGlobalKey = (e: KeyboardEvent) => {
       if (e.key !== "Escape") return;
-      atHome.current = hasHome();
-      target.current = restOffset(dockRef.current);
-      kick();
+      // Escape: centre on a poster + media page, top left everywhere else.
+      recentre();
     };
     window.addEventListener("keydown", onGlobalKey);
 
@@ -273,6 +300,7 @@ export function Chrome() {
       /* drag still works, it just will not track outside the handle */
     }
     dragging.current = true;
+    userMoved.current = true;
     atHome.current = false;
     setGrabbed(true);
     // Moving it is the other moment legibility matters, so the same emphasis
@@ -303,8 +331,15 @@ export function Chrome() {
   };
 
   const recentre = () => {
-    atHome.current = hasHome();
-    target.current = restOffset(dockRef.current);
+    userMoved.current = false;
+    clearStored();
+    if (viewIsBoth()) {
+      atHome.current = false;
+      target.current = { x: 0, y: 0 };
+    } else {
+      atHome.current = true;
+      target.current = homeOffset(dockRef.current);
+    }
     kick();
   };
 
@@ -323,6 +358,7 @@ export function Chrome() {
     const d = map[e.key];
     if (!d) return;
     e.preventDefault();
+    userMoved.current = true;
     atHome.current = false;
     target.current = { x: target.current.x + d.x, y: target.current.y + d.y };
     kick();

@@ -52,7 +52,7 @@
   color: #fff;
   opacity: 0.35;
   filter: drop-shadow(0 0 3px rgb(0 0 0 / 0.5));
-  transition: opacity 0.2s;
+  transition: opacity var(--mo-quick, 0.28s) var(--mo-ease, ease);
 }
 .ev__credit svg { width: 15px; height: 15px; }
 .ev__credit:hover, .ev__credit:focus-visible { opacity: 0.9; }
@@ -160,7 +160,7 @@
 
 /* Horizontal swipes belong to the page (next / previous night); vertical stays
    with the browser. */
-.ev { touch-action: pan-y; }
+.ev { touch-action: pan-y; overscroll-behavior-x: none; }
 
 @media (max-width: 780px) {
   /* Side margins wide enough that the arrows sit clear of the image. */
