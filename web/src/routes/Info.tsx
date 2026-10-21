@@ -59,7 +59,10 @@ export default function Info() {
             {emails.map(([label, address]) => (
               <div key={label} className="info__row">
                 <dt>{label}</dt>
-                <dd><a href={`mailto:${address}`}>{address}</a></dd>
+                <dd>
+                  <a href={`mailto:${address}`}>{address}</a>
+                  {label === 'Booking' && <> / <Link to="/cv">cv</Link></>}
+                </dd>
               </div>
             ))}
             <div className="info__row">
@@ -70,7 +73,6 @@ export default function Info() {
             </div>
           </dl>
           {info.submissions && <p className="info__bio">{info.submissions}</p>}
-          <p className="info__bio"><Link to="/cv">Booking CV</Link></p>
         </section>
 
         {info.mailingList && (
