@@ -2361,5 +2361,72 @@
       800,
       1200
     ]
+  },
+  "mmh-2026-11-01--the-whistler--01--a1": {
+    "aspectRatio": 0.75,
+    "assetId": "mmh-2026-11-01--the-whistler--01--a1",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1440,
+    "thumbHash": "HnkGFQY5SYFpSWhnl2KZCJp9n7v4",
+    "width": 1080,
+    "widths": [
+      400,
+      800
+    ]
+  },
+  "mmh-2026-11-01--the-whistler--01--a2": {
+    "aspectRatio": 0.75,
+    "assetId": "mmh-2026-11-01--the-whistler--01--a2",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 2592,
+    "thumbHash": "2hgKFQQESlV5ZobIaIjpdw8N5uGQ",
+    "width": 1944,
+    "widths": [
+      400,
+      800,
+      1200,
+      1600
+    ]
+  },
+  "mmh-2026-11-01--the-whistler--01--a3": {
+    "aspectRatio": 0.75,
+    "assetId": "mmh-2026-11-01--the-whistler--01--a3",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1608,
+    "thumbHash": "h/cFFQIDjJNqB7q1ZnmHaPx8z7/3",
+    "width": 1206,
+    "widths": [
+      400,
+      800,
+      1200
+    ]
+  },
+  "mmh-2026-11-01--the-whistler--01--a4": {
+    "aspectRatio": 0.750209,
+    "assetId": "mmh-2026-11-01--the-whistler--01--a4",
+    "formats": [
+      "avif",
+      "webp",
+      "jpg"
+    ],
+    "height": 1197,
+    "thumbHash": "jfcJHQRZl4d4CId4eJeolrR6T6z3",
+    "width": 898,
+    "widths": [
+      400,
+      800
+    ]
   }
 }

@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "account": "madmaadhouse",
   "harvestedAt": "2026-09-22T06:17:25Z",
-  "postCount": 60,
-  "notes": "Harvested via logged-in Chrome reading each post's embedded page JSON (Instagram's /api/v1 was hard rate-limited, so per-post navigation was used instead of the grid API). postCount is the distinct items enumerated: 53 static flyer posts (photo/carousel) plus 7 reels. Instagram's profile header showed 59 posts; the 60-vs-59 difference is an IG count discrepancy, not a dropped post. The 7 reels are recorded as failures because they are videos whose covers are low-res vertical stills, not flyers; their shortcodes are listed so the build session can revisit them. Image w/h are the real decoded dimensions. Each image is the max-resolution image_versions2 candidate served on the post page.",
+  "postCount": 61,
+  "notes": "Harvested via logged-in Chrome reading each post's embedded page JSON (Instagram's /api/v1 was hard rate-limited, so per-post navigation was used instead of the grid API). postCount is the distinct items enumerated: 53 static flyer posts (photo/carousel) plus 7 reels. Instagram's profile header showed 59 posts; the 60-vs-59 difference is an IG count discrepancy, not a dropped post. The 7 reels are recorded as failures because they are videos whose covers are low-res vertical stills, not flyers; their shortcodes are listed so the build session can revisit them. Image w/h are the real decoded dimensions. Each image is the max-resolution image_versions2 candidate served on the post page. 2026-10-21: added Dep8RVAjbrQ (Whistler, Nov 1 2026, posted 2026-10-18, collab with @mark_cabinian), read logged-out from the post page JSON; largest served candidate per slide, so the flyer is 1080x1440 (Instagram serves nothing larger for it). altText is the per-slide IG auto alt (slide 1 here; slides 2 to 4 differ). Photo tags: slide 1 @whistlerchicago @mark_cabinian, slide 2 @mark_cabinian, slide 3 @thy_niconico, slide 4 @luisvercetti. postCount raised 60 to 61.",
   "posts": [
     {
       "shortcode": "C-5lk1qO9Ji",
@@ -1865,6 +1865,48 @@
           "w": 1440,
           "h": 1551,
           "mintedAs": "mmh-2024-05-10--subterranean--01--a18"
+        }
+      ]
+    },
+    {
+      "shortcode": "Dep8RVAjbrQ",
+      "postUrl": "https://www.instagram.com/p/Dep8RVAjbrQ/",
+      "altText": "Photo by madmadhouse on October 18, 2026. May be pop art of poster, magazine and text.",
+      "captionText": "November 1st! Live at @whistlerchicago We\u2019re combining  Live Jazz With House music, with @mark_cabinian & @luisvercetti and @thy_niconico on the decks!\ud83c\udfa79PM-12AM",
+      "capturedAt": "2026-10-21T00:00:00.000Z",
+      "hasCarousel": true,
+      "images": [
+        {
+          "index": 1,
+          "tempAssetId": "tmp-Dep8RVAjbrQ-a1",
+          "file": "originals/tmp-Dep8RVAjbrQ-a1.jpg",
+          "w": 1080,
+          "h": 1440,
+          "mintedAs": "mmh-2026-11-01--the-whistler--01--a1"
+        },
+        {
+          "index": 2,
+          "tempAssetId": "tmp-Dep8RVAjbrQ-a2",
+          "file": "originals/tmp-Dep8RVAjbrQ-a2.jpg",
+          "w": 1944,
+          "h": 2592,
+          "mintedAs": "mmh-2026-11-01--the-whistler--01--a2"
+        },
+        {
+          "index": 3,
+          "tempAssetId": "tmp-Dep8RVAjbrQ-a3",
+          "file": "originals/tmp-Dep8RVAjbrQ-a3.jpg",
+          "w": 1206,
+          "h": 1608,
+          "mintedAs": "mmh-2026-11-01--the-whistler--01--a3"
+        },
+        {
+          "index": 4,
+          "tempAssetId": "tmp-Dep8RVAjbrQ-a4",
+          "file": "originals/tmp-Dep8RVAjbrQ-a4.jpg",
+          "w": 898,
+          "h": 1197,
+          "mintedAs": "mmh-2026-11-01--the-whistler--01--a4"
         }
       ]
     }

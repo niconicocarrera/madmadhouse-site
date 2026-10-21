@@ -13,6 +13,19 @@ export const SEED_NOTICE = "";
 
 export const events: EventRecord[] = [
   {
+    eventId: "mmh-2026-11-01--the-whistler--01",
+    title: "Jazz & House",
+    venue: { name: "The Whistler", city: "Chicago", address: "" },
+    date: "2026-11-01",
+    timeText: "9PM-12AM",
+    djs: [{ name: "blinco", instagram: "thy_niconico", confidence: "medium" }, { name: "luisvercetti", instagram: "luisvercetti", confidence: "medium" }],
+    specialGuests: [{ name: "mark cabinian", instagram: "mark_cabinian" }],
+    info: "November 1st! Live at @whistlerchicago We’re combining Live Jazz With House music, with @mark_cabinian & @luisvercetti and @thy_niconico on the decks!🎧9PM-12AM",
+    assets: [{ assetId: "mmh-2026-11-01--the-whistler--01--a1", aspectRatio: 0.75, role: "flyer", kind: "poster" }, { assetId: "mmh-2026-11-01--the-whistler--01--a2", aspectRatio: 0.75, role: "extra", kind: "image" }, { assetId: "mmh-2026-11-01--the-whistler--01--a3", aspectRatio: 0.75, role: "extra", kind: "image" }, { assetId: "mmh-2026-11-01--the-whistler--01--a4", aspectRatio: 0.750209, role: "extra", kind: "image" }],
+    source: { igShortcode: "Dep8RVAjbrQ", caption: "November 1st! Live at @whistlerchicago We’re combining Live Jazz With House music, with @mark_cabinian & @luisvercetti and @thy_niconico on the decks!🎧9PM-12AM" },
+    review: { fields: { "date": "high", "venue.name": "high", "timeText": "high", "djs": "high" }, needsHumanReview: false },
+  },
+  {
     eventId: "mmh-2026-09-27--carmines--01",
     title: "Rooftop Afters",
     venue: { name: "Carmine's", city: "Chicago", address: "1043 N Rush St" },
